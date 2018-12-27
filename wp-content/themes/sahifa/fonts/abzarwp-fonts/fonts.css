@@ -1,0 +1,313 @@
+﻿	@font-face{font-family:'abzarwp-Abasan';src:url('fonts/abzarwp-Abasan.eot?#') format('eot'),
+	url('fonts/abzarwp-Abasan.woff') format('woff'),
+	url('fonts/abzarwp-Abasan.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Afsoon';src:url('fonts/abzarwp-Afsoon.eot?#') format('eot'),
+	url('fonts/abzarwp-Afsoon.woff') format('woff'),
+	url('fonts/abzarwp-Afsoon.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Aref';src:url('fonts/abzarwp-Aref.eot?#') format('eot'),
+	url('fonts/abzarwp-Aref.woff') format('woff'),
+	url('fonts/abzarwp-Aref.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Arshia';src:url('fonts/abzarwp-Arshia.eot?#') format('eot'),
+	url('fonts/abzarwp-Arshia.woff') format('woff'),
+	url('fonts/abzarwp-Arshia.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBadr';src:url('fonts/abzarwp-BBadr.eot?#') format('eot'),
+	url('fonts/abzarwp-BBadr.woff') format('woff'),
+	url('fonts/abzarwp-BBadr.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBaran';src:url('fonts/abzarwp-BBaran.eot?#') format('eot'),
+	url('fonts/abzarwp-BBaran.woff') format('woff'),
+	url('fonts/abzarwp-BBaran.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBardiya';src:url('fonts/abzarwp-BBardiya.eot?#') format('eot'),
+	url('fonts/abzarwp-BBardiya.woff') format('woff'),
+	url('fonts/abzarwp-BBardiya.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBCNassim';src:url('fonts/abzarwp-BBCNassim.eot?#') format('eot'),
+	url('fonts/abzarwp-BBCNassim.woff') format('woff'),
+	url('fonts/abzarwp-BBCNassim.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BCompset';src:url('fonts/abzarwp-BCompset.eot?#') format('eot'),
+	url('fonts/abzarwp-BCompset.woff') format('woff'),
+	url('fonts/abzarwp-BCompset.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BDavat';src:url('fonts/abzarwp-BDavat.eot?#') format('eot'),
+	url('fonts/abzarwp-BDavat.woff') format('woff'),
+	url('fonts/abzarwp-BDavat.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BeirutLtX3';src:url('fonts/abzarwp-BeirutLtX3.eot?#') format('eot'),
+	url('fonts/abzarwp-BeirutLtX3.woff') format('woff'),
+	url('fonts/abzarwp-BeirutLtX3.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BElham';src:url('fonts/abzarwp-BElham.eot?#') format('eot'),
+	url('fonts/abzarwp-BElham.woff') format('woff'),
+	url('fonts/abzarwp-BElham.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BEsfehanBold';src:url('fonts/abzarwp-BEsfehanBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BEsfehanBold.woff') format('woff'),
+	url('fonts/abzarwp-BEsfehanBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BFantezy';src:url('fonts/abzarwp-BFantezy.eot?#') format('eot'),
+	url('fonts/abzarwp-BFantezy.woff') format('woff'),
+	url('fonts/abzarwp-BFantezy.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BFarnaz';src:url('fonts/abzarwp-BFarnaz.eot?#') format('eot'),
+	url('fonts/abzarwp-BFarnaz.woff') format('woff'),
+	url('fonts/abzarwp-BFarnaz.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BFerdosi';src:url('fonts/abzarwp-BFerdosi.eot?#') format('eot'),
+	url('fonts/abzarwp-BFerdosi.woff') format('woff'),
+	url('fonts/abzarwp-BFerdosi.ttf') format('truetype')}
+
+		@font-face{font-family:'abzarwp-BHoma';src:url('fonts/abzarwp-BHoma.eot?#') format('eot'),
+	url('fonts/abzarwp-BHoma.woff') format('woff'),
+	url('fonts/abzarwp-BHoma.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BJadidBold';src:url('fonts/abzarwp-BJadidBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BJadidBold.woff') format('woff'),
+	url('fonts/abzarwp-BJadidBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BJalal';src:url('fonts/abzarwp-BJalal.eot?#') format('eot'),
+	url('fonts/abzarwp-BJalal.woff') format('woff'),
+	url('fonts/abzarwp-BJalal.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BKoodakBold';src:url('fonts/abzarwp-BKoodakBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BKoodakBold.woff') format('woff'),
+	url('fonts/abzarwp-BKoodakBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BKourosh';src:url('fonts/abzarwp-BKourosh.eot?#') format('eot'),
+	url('fonts/abzarwp-BKourosh.woff') format('woff'),
+	url('fonts/abzarwp-BKourosh.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BLotus';src:url('fonts/abzarwp-BLotus.eot?#') format('eot'),
+	url('fonts/abzarwp-BLotus.woff') format('woff'),
+	url('fonts/abzarwp-BLotus.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BMehrBold';src:url('fonts/abzarwp-BMehrBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BMehrBold.woff') format('woff'),
+	url('fonts/abzarwp-BMehrBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BMitra';src:url('fonts/abzarwp-BMitra.eot?#') format('eot'),
+	url('fonts/abzarwp-BMitra.woff') format('woff'),
+	url('fonts/abzarwp-BMitra.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BMorvarid';src:url('fonts/abzarwp-BMorvarid.eot?#') format('eot'),
+	url('fonts/abzarwp-BMorvarid.woff') format('woff'),
+	url('fonts/abzarwp-BMorvarid.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BNarm';src:url('fonts/abzarwp-BNarm.eot?#') format('eot'),
+	url('fonts/abzarwp-BNarm.woff') format('woff'),
+	url('fonts/abzarwp-BNarm.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BNasimBold';src:url('fonts/abzarwp-BNasimBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BNasimBold.woff') format('woff'),
+	url('fonts/abzarwp-BNasimBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BNazanin';src:url('fonts/abzarwp-BNazanin.eot?#') format('eot'),
+	url('fonts/abzarwp-BNazanin.woff') format('woff'),
+	url('fonts/abzarwp-BNazanin.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BRoya';src:url('fonts/abzarwp-BRoya.eot?#') format('eot'),
+	url('fonts/abzarwp-BRoya.woff') format('woff'),
+	url('fonts/abzarwp-BRoya.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBaran';src:url('fonts/abzarwp-BBaran.eot?#') format('eot'),
+	url('fonts/abzarwp-BBaran.woff') format('woff'),
+	url('fonts/abzarwp-BBaran.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BShiraz';src:url('fonts/abzarwp-BShiraz.eot?#') format('eot'),
+	url('fonts/abzarwp-BShiraz.woff') format('woff'),
+	url('fonts/abzarwp-BShiraz.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BSinaBold';src:url('fonts/abzarwp-BSinaBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BSinaBold.woff') format('woff'),
+	url('fonts/abzarwp-BSinaBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BTabassom';src:url('fonts/abzarwp-BTabassom.eot?#') format('eot'),
+	url('fonts/abzarwp-BTabassom.woff') format('woff'),
+	url('fonts/abzarwp-BTabassom.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BTehran';src:url('fonts/abzarwp-BTehran.eot?#') format('eot'),
+	url('fonts/abzarwp-BTehran.woff') format('woff'),
+	url('fonts/abzarwp-BTehran.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BTitrBold';src:url('fonts/abzarwp-BTitrBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BTitrBold.woff') format('woff'),
+	url('fonts/abzarwp-BTitrBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BTitrTGEBold';src:url('fonts/abzarwp-BTitrTGEBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BTitrTGEBold.woff') format('woff'),
+	url('fonts/abzarwp-BTitrTGEBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BTraffic';src:url('fonts/abzarwp-BTraffic.eot?#') format('eot'),
+	url('fonts/abzarwp-BTraffic.woff') format('woff'),
+	url('fonts/abzarwp-BTraffic.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BVahidBold';src:url('fonts/abzarwp-BVahidBold.eot?#') format('eot'),
+	url('fonts/abzarwp-BVahidBold.woff') format('woff'),
+	url('fonts/abzarwp-BVahidBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BYagut';src:url('fonts/abzarwp-BYagut.eot?#') format('eot'),
+	url('fonts/abzarwp-BYagut.woff') format('woff'),
+	url('fonts/abzarwp-BYagut.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BYas';src:url('fonts/abzarwp-BYas.eot?#') format('eot'),
+	url('fonts/abzarwp-BYas.woff') format('woff'),
+	url('fonts/abzarwp-BYas.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BYekan';src:url('fonts/abzarwp-BYekan.eot?#') format('eot'),
+	url('fonts/abzarwp-BYekan.woff') format('woff'),
+	url('fonts/abzarwp-BYekan.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BBaran';src:url('fonts/abzarwp-BBaran.eot?#') format('eot'),
+	url('fonts/abzarwp-BBaran.woff') format('woff'),
+	url('fonts/abzarwp-BBaran.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BZar';src:url('fonts/abzarwp-BZar.eot?#') format('eot'),
+	url('fonts/abzarwp-BZar.woff') format('woff'),
+	url('fonts/abzarwp-BZar.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-BZiba';src:url('fonts/abzarwp-BZiba.eot?#') format('eot'),
+	url('fonts/abzarwp-BZiba.woff') format('woff'),
+	url('fonts/abzarwp-BZiba.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Casablanca';src:url('fonts/abzarwp-Casablanca.eot?#') format('eot'),
+	url('fonts/abzarwp-Casablanca.woff') format('woff'),
+	url('fonts/abzarwp-Casablanca.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Ekhlass';src:url('fonts/abzarwp-Ekhlass.eot?#') format('eot'),
+	url('fonts/abzarwp-Ekhlass.woff') format('woff'),
+	url('fonts/abzarwp-Ekhlass.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-FarsiSimple';src:url('fonts/abzarwp-FarsiSimple.eot?#') format('eot'),
+	url('fonts/abzarwp-FarsiSimple.woff') format('woff'),
+	url('fonts/abzarwp-FarsiSimple.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Flow';src:url('fonts/abzarwp-Flow.eot?#') format('eot'),
+	url('fonts/abzarwp-Flow.woff') format('woff'),
+	url('fonts/abzarwp-Flow.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-FlowBold';src:url('fonts/abzarwp-FlowBold.eot?#') format('eot'),
+	url('fonts/abzarwp-FlowBold.woff') format('woff'),
+	url('fonts/abzarwp-FlowBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-frutiger';src:url('fonts/abzarwp-frutiger.eot?#') format('eot'),
+	url('fonts/abzarwp-frutiger.woff') format('woff'),
+	url('fonts/abzarwp-frutiger.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-HeritageTwo';src:url('fonts/abzarwp-HeritageTwo.eot?#') format('eot'),
+	url('fonts/abzarwp-HeritageTwo.woff') format('woff'),
+	url('fonts/abzarwp-HeritageTwo.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Kufi';src:url('fonts/abzarwp-Kufi.eot?#') format('eot'),
+	url('fonts/abzarwp-Kufi.woff') format('woff'),
+	url('fonts/abzarwp-Kufi.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-LinerScreen';src:url('fonts/abzarwp-LinerScreen.eot?#') format('eot'),
+	url('fonts/abzarwp-LinerScreen.woff') format('woff'),
+	url('fonts/abzarwp-LinerScreen.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Naskh';src:url('fonts/abzarwp-Naskh.eot?#') format('eot'),
+	url('fonts/abzarwp-Naskh.woff') format('woff'),
+	url('fonts/abzarwp-Naskh.ttf') format('truetype')}
+
+	@font-face{font-family:'Rezvan';src:url('fonts/abzarwp-Rezvan.eot?#') format('eot'),
+	url('fonts/abzarwp-Rezvan.woff') format('woff'),
+	url('fonts/abzarwp-Rezvan.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Shams';src:url('fonts/abzarwp-Shams.eot?#') format('eot'),
+	url('fonts/abzarwp-Shams.woff') format('woff'),
+	url('fonts/abzarwp-Shams.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Silicon';src:url('fonts/abzarwp-Silicon.eot?#') format('eot'),
+	url('fonts/abzarwp-Silicon.woff') format('woff'),
+	url('fonts/abzarwp-Silicon.ttf') format('truetype')}
+
+
+	@font-face{font-family:'abzarwp-Talat';src:url('fonts/abzarwp-Talat.eot?#') format('eot'),
+	url('fonts/abzarwp-Talat.woff') format('woff'),
+	url('fonts/abzarwp-Talat.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Kufi';src:url('fonts/abzarwp-ThameenDemi.eot?#') format('eot'),
+	url('fonts/abzarwp-ThameenDemi.woff') format('woff'),
+	url('fonts/abzarwp-ThameenDemi.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TitrDF';src:url('fonts/abzarwp-TitrDF.eot?#') format('eot'),
+	url('fonts/abzarwp-TitrDF.woff') format('woff'),
+	url('fonts/abzarwp-TitrDF.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TunisiaBold';src:url('fonts/abzarwp-TunisiaBold.eot?#') format('eot'),
+	url('fonts/abzarwp-TunisiaBold.woff') format('woff'),
+	url('fonts/abzarwp-TunisiaBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-Kufi';src:url('fonts/abzarwp-Kufi.eot?#') format('eot'),
+	url('fonts/abzarwp-Kufi.woff') format('woff'),
+	url('fonts/abzarwp-Kufi.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TVBold';src:url('fonts/abzarwp-TVBold.eot?#') format('eot'),
+	url('fonts/abzarwp-TVBold.woff') format('woff'),
+	url('fonts/abzarwp-TVBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TwoBold';src:url('fonts/abzarwp-TwoBold.eot?#') format('eot'),
+	url('fonts/abzarwp-TwoBold.woff') format('woff'),
+	url('fonts/abzarwp-TwoBold.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TwoLight';src:url('fonts/abzarwp-TwoLight.eot?#') format('eot'),
+	url('fonts/abzarwp-TwoLight.woff') format('woff'),
+	url('fonts/abzarwp-TwoLight.ttf') format('truetype')}
+
+	@font-face{font-family:'abzarwp-TwoMedium';src:url('fonts/abzarwp-TwoMedium.eot?#') format('eot'),
+	url('fonts/abzarwp-TwoMedium.woff') format('woff'),
+	url('fonts/abzarwp-TwoMedium.ttf') format('truetype')}
+
+
+
+	
+
+	
+	@font-face {
+	font-family: IRANSansWebFaNum_Bold;
+	src: url('fonts/IRANSansWeb(FaNum)_Bold.eot');
+	src: url('fonts/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IRANSansWeb(FaNum)_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWebFaNum_Medium;
+	src: url('fonts/IRANSansWeb(FaNum)_Medium.eot');
+	src: url('fonts/IRANSansWeb(FaNum)_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IRANSansWeb(FaNum)_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IRANSansWeb(FaNum)_Medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWebFaNum_Light;
+	src: url('fonts/IRANSansWeb(FaNum)_Light.eot');
+	src: url('fonts/IRANSansWeb(FaNum)_Light.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IRANSansWeb(FaNum)_Light.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/IRANSansWeb(FaNum)_Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWebFaNum_UltraLight;
+	src: url('fonts/IRANSansWeb(FaNum)_UltraLight.eot');
+	src: url('fonts/IRANSansWeb(FaNum)_UltraLight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/IRANSansWeb(FaNum)_UltraLight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IRANSansWeb(FaNum)_UltraLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSansWebFaNum;
+	src: url('fonts/IRANSansWeb(FaNum).eot');
+	src: url('fonts/IRANSansWeb(FaNum).eot?#iefix') format('embedded-opentype'), 
+		 url('fonts/IRANSansWeb(FaNum).woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/IRANSansWeb(FaNum).ttf') format('truetype');
+}
+/*
+End Of File.
+ Supported by: http://wwww.AbzarWp.com;
+/*
+
+
+
+
