@@ -52,7 +52,7 @@ html {
 }
 
 body {
-	background: #FFF url(images/patterns/body-bg7.png);
+	background: rgb(61, 61, 61) url(images/patterns/body-bg7.png);
 	color: #333;
 	font-family: 'Droid Sans', Arial, Verdana, sans-serif;
 	font-size: 13px;
