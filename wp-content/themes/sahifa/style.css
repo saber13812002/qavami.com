@@ -3650,8 +3650,9 @@ textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=e
 
 /* Header Content area  */
 
-.header-content {
-	padding: 20px 15px;
+.header-content {		
+	background-color: gray;
+	padding: 1px 15px;
 	margin: 0 auto;
 }
 
@@ -3660,7 +3661,7 @@ textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=e
 }
 
 .logo img {
-	max-width: 100%;
+	max-width: 88%;
 }
 
 .logo h1, .logo h2 {
@@ -10048,6 +10049,24 @@ h3.toggle-head-open i, h3.toggle-head-close i {
 	height: 33px;
 	width: 40px;
 	z-index: 505;
+}
+
+.title-block{
+	/* display:inline; */
+	margin-right:172px;
+	margin-top:44px;
+}
+
+.title-first{
+	color:white;
+	font-size: large;
+	display:inline;
+}
+
+.title-main{
+	color:white;
+	font-family: "IRANSansWebFaNum";
+	font-size: xx-large;
 }
 
 #slide-out-open span {

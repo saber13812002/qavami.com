@@ -182,8 +182,15 @@ jQuery(document).ready(function($) {
 <?php endif; ?>
 <?php } ?>
 			<?php tie_banner('banner_top' , '<div class="e3lan e3lan-top">' , '</div>' ); ?>
-			<div class="clear"></div>
+			<div class="title-block">
+			
+			
+			<div class="title-first">پایگاه اطلاع رسانی و نشر آثار</div>
 
+			<div class="title-main">آیت الله سید صمصام الدین قوامی</div>
+			<div class="product__stars  notrated"><i class="icon-star-full"></i> <i class="icon-star-full"></i> <i class="icon-star-full"></i> <i class="icon-star-full"></i> <i class="icon-star-full"></i></div>
+			</div>
+			<div class="clear"></div>
 		</div>
 		<?php $stick = ''; ?>
 		<?php if( tie_get_option( 'stick_nav' ) ) $stick = ' class="fixed-enabled"' ?>
