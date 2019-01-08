@@ -189,6 +189,35 @@ textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=e
 	background-color: #fff;
 }
 
+.column3 {
+float: left;
+width: 31.33%;
+border: 1px solid;
+border-style: dotted;
+border-radius: 5px;
+border-color: cadetblue;
+margin: 9px;
+background-color: white;
+}
+
+.column31 {
+	width: 20.33%;
+}
+
+.column32 {
+	width: 51.33%;
+}
+
+.column33 {
+	width: 20.33%;
+}
+/* Clear floats after the columns */
+.row3:after {
+content: "";
+display: table;
+clear: both;
+}
+
 .button, a.button, a.more-link, #main-content input[type="submit"], .form-submit #submit, #login-form .login-button, .widget-feedburner .feedburner-subscribe, input[type="submit"], #buddypress button, #buddypress a.button, #buddypress input[type=submit], #buddypress input[type=reset], #buddypress ul.button-nav li a, #buddypress div.generic-button a, #buddypress .comment-reply-link, a.bp-title-button {
 	width: auto;
 	position: relative;
@@ -3651,7 +3680,6 @@ textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=e
 /* Header Content area  */
 
 .header-content {		
-	background-color: gray;
 	padding: 1px 15px;
 	margin: 0 auto;
 }
@@ -10108,6 +10136,7 @@ h3.toggle-head-open i, h3.toggle-head-close i {
 
 .csstransforms3d.csstransitions .js-nav .inner-wrapper {
 	left: 80%;
+	background-color: #e7f3f3;
 }
 
 .csstransforms3d.csstransitions .js-nav #mobile-menu {
