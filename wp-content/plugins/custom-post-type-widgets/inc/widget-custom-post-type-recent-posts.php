@@ -19,8 +19,12 @@ class WP_Custom_Post_Type_Widgets_Recent_Posts extends WP_Widget {
 			$args['widget_id'] = $this->id;
 		}
 
-		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Recent Posts', 'custom-post-type-widgets' ) : $instance['title'], $instance, $this->id_base );
+		//$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? __( 'Recent Posts', 'custom-post-type-widgets' ) : $instance['title'], $instance, $this->id_base );
+		$title = apply_filters( 'widget_title', empty( $instance['title'] ) ? " اخبار" : $instance['title'], $instance, $this->id_base );
+
+		
 		$posttype = ! empty( $instance['posttype'] ) ? $instance['posttype'] : 'post';
+
 		if ( empty( $instance['number'] ) || ! $number = absint( $instance['number'] ) ) {
 			$number = 5;
 		}
