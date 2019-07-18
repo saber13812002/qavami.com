@@ -1,15 +1,15 @@
-# Translation of WordPress - 4.9.x - Development - Continents & Cities in Persian
-# This file is distributed under the same license as the WordPress - 4.9.x - Development - Continents & Cities package.
+# Translation of WordPress - 5.2.x - Development - Continents & Cities in Persian
+# This file is distributed under the same license as the WordPress - 5.2.x - Development - Continents & Cities package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-25 05:06:26+0000\n"
+"PO-Revision-Date: 2019-04-22 12:37:50+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: fa\n"
-"Project-Id-Version: WordPress - 4.9.x - Development - Continents & Cities\n"
+"Project-Id-Version: WordPress - 5.2.x - Development - Continents & Cities\n"
 
 #: wp-admin/includes/continents-cities.php:478
 msgid "Saratov"
@@ -29,11 +29,11 @@ msgstr "آتیراو"
 
 #: wp-admin/includes/continents-cities.php:204
 msgid "Punta Arenas"
-msgstr "پونتا آرنا"
+msgstr "پونتا آرناس"
 
 #: wp-admin/includes/continents-cities.php:542
 msgid "Pohnpei"
-msgstr "پانپی"
+msgstr "پوناپی"
 
 #: wp-admin/includes/continents-cities.php:516
 msgid "Chuuk"
@@ -41,11 +41,11 @@ msgstr "چوک"
 
 #: wp-admin/includes/continents-cities.php:514
 msgid "Bougainville"
-msgstr "بوگاینویل"
+msgstr "بوگنویل"
 
 #: wp-admin/includes/continents-cities.php:486
 msgid "Ulyanovsk"
-msgstr "اولیانوسک"
+msgstr "اولیانوفسک"
 
 #: wp-admin/includes/continents-cities.php:457
 msgid "Kirov"
@@ -53,7 +53,7 @@ msgstr "کیروف"
 
 #: wp-admin/includes/continents-cities.php:445
 msgid "Busingen"
-msgstr "باسینجن"
+msgstr "باسینگن"
 
 #: wp-admin/includes/continents-cities.php:436
 msgid "Astrakhan"
@@ -69,7 +69,7 @@ msgstr "تومسک"
 
 #: wp-admin/includes/continents-cities.php:335
 msgid "Srednekolymsk"
-msgstr "اسردنکولیمسک"
+msgstr "سیریدینکالیمسک"
 
 #: wp-admin/includes/continents-cities.php:318
 msgid "Novokuznetsk"
@@ -77,7 +77,7 @@ msgstr "نووکوزنتسک"
 
 #: wp-admin/includes/continents-cities.php:305
 msgid "Khandyga"
-msgstr "خاندیگا"
+msgstr "کندیگا"
 
 #: wp-admin/includes/continents-cities.php:303
 msgid "Kathmandu"
@@ -93,7 +93,7 @@ msgstr "چیتا"
 
 #: wp-admin/includes/continents-cities.php:271
 msgid "Barnaul"
-msgstr "بارناول"
+msgstr "بارنائول"
 
 #: wp-admin/includes/continents-cities.php:251
 msgid "Troll"
@@ -101,7 +101,7 @@ msgstr "ترول"
 
 #: wp-admin/includes/continents-cities.php:244
 msgid "Macquarie"
-msgstr "مکواری"
+msgstr "مک‌کواری"
 
 #: wp-admin/includes/continents-cities.php:219
 msgid "Sitka"
@@ -121,7 +121,7 @@ msgstr "اوجیناگا"
 
 #: wp-admin/includes/continents-cities.php:191
 msgid "Beulah"
-msgstr "بولا"
+msgstr "بیولا"
 
 #: wp-admin/includes/continents-cities.php:177
 msgid "Metlakatla"
@@ -129,7 +129,7 @@ msgstr "متلاکاتلا"
 
 #: wp-admin/includes/continents-cities.php:172
 msgid "Matamoros"
-msgstr "متمرس"
+msgstr "ماتاموروس"
 
 #: wp-admin/includes/continents-cities.php:166
 msgid "Lower Princes"
@@ -1958,7 +1958,7 @@ msgstr "نیامی"
 
 #: wp-admin/includes/continents-cities.php:59
 msgid "Nouakchott"
-msgstr "نواکشوط‎"
+msgstr "نواکشوت"
 
 #: wp-admin/includes/continents-cities.php:60
 msgid "Ouagadougou"
@@ -2110,7 +2110,7 @@ msgstr "ژوهانسبورگ"
 
 #: wp-admin/includes/continents-cities.php:43
 msgid "Kinshasa"
-msgstr "کینشازا"
+msgstr "کینشاسا"
 
 #: wp-admin/includes/continents-cities.php:42
 msgid "Kigali"

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - WordPress Importer - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-03-04 11:19:38+0000\n"
+"PO-Revision-Date: 2019-05-19 02:35:24+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,95 @@ msgstr ""
 "Language: fa\n"
 "Project-Id-Version: Plugins - WordPress Importer - Stable (latest release)\n"
 
+#: parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "جزئیات در بالا نشان داده شده‌اند. درون‌ریز اکنون با یک مفسر جدید تلاش خواهد کرد..."
+
+#: parsers.php:42 parsers.php:72 parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "خطایی هنگام خواندن این پرونده WXR وجود دارد"
+
+#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:502
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "این به نظر نمی‌رسد که یک پرونده WXR باشد، نگارش WXR نامعتبر/فراموش شده است"
+
+#: wordpress-importer.php:132 wordpress-importer.php:141
+#: wordpress-importer.php:192 wordpress-importer.php:196
+#: wordpress-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr "متأسفیم، اینجا خطایی رخ داده است."
+
+#: wordpress-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr "پرونده موجود نيست،دوباره آزمايش كنيد."
+
+#: wordpress-importer.php:176
+msgid "All done."
+msgstr "انجام شد."
+
+#: wordpress-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "به‌یاد داشته باشید که رمزهای عبور و نقش‌های کاربران درون‌ریزی شده را به‌روزرسانی کنید."
+
+#: wordpress-importer.php:176
+msgid "Have fun!"
+msgstr "خوش بگذرد!"
+
+#: wordpress-importer.php:197
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "پرونده برون‌بری یافت نشد در <code>%s</code>.ممکن است به دلیل دسترسی‌ها باشد."
+
+#: wordpress-importer.php:213
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "این پرونده WXR (نگارش %s) احتمالاً توسط این نگارش از درون‌ریز پشتیبانی نشده است. لطفاً به‌روزرسانی را امتحان کنید."
+
+#: wordpress-importer.php:238
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "ناموفق در درون‌ریزی نویسنده (%s). نوشته‌های ایشان به کاربر فعلی تخصیص داده خواهد شد."
+
+#: wordpress-importer.php:265
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "برای آسان کردن ویرایش برای شما و ذخیره محتوای درون‌ریزی شده، شما ممکن است بخواهید نویسنده موارد درون‌ریزی شده را به یک کاربر موجود از این سایت اختصاص دهید. برای مثال، شما ممکن است بخواهید همه موارد را به عنوان ارسال‌های <code>admin</code> درون‌ریزی کنید."
+
+#: wordpress-importer.php:264
+msgid "Assign Authors"
+msgstr "اختصاص دادن نویسندگان"
+
+#: wordpress-importer.php:267
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "اگر یک کاربر جدید توسط وردپرس ایجاد شود، یک رمز عبور تصادفی ساخته می‌شود و نقش کاربر جدید به‌عنوان %s خواهد بود. تغییر جزئیات کاربر جدید به‌صورت دستی لازم است."
+
+#: wordpress-importer.php:277
+msgid "Import Attachments"
+msgstr "درون‌ریزی پیوست‌ها"
+
+#: wordpress-importer.php:280
+msgid "Download and import file attachments"
+msgstr "دانلود و درون‌ریزی فایل‌های پیوست"
+
 #: wordpress-importer.php:284
 msgid "Submit"
 msgstr "تایید"
 
-#: wordpress-importer.php:1152
-msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
-msgstr "یک پرونده WXR (.xml) را برای بارگذاری انتخاب کنید، سپس روی بارگذاری پرونده کلیک کنید و درون‌ریزی کنید."
+#: wordpress-importer.php:297
+msgid "Import author:"
+msgstr "كاربر درون ريز:"
+
+#: wordpress-importer.php:311
+msgid "as a new user:"
+msgstr "به‌عنوان یک کاربر جدید:"
+
+#: wordpress-importer.php:308
+msgid "or create new user with login name:"
+msgstr "يا یک کاربر جدید با این شناسه کاربری بساز:"
+
+#: wordpress-importer.php:319
+msgid "assign posts to an existing user:"
+msgstr "اختصاص دادن نوشته‌ها به یک کاربر موجود:"
+
+#: wordpress-importer.php:322
+msgid "- Select -"
+msgstr "- انتخاب -"
 
 #: wordpress-importer.php:321
 msgid "or assign posts to an existing user:"
@@ -26,74 +108,6 @@ msgstr "یا نوشته‌ها را به یک کاربر فعلی اختصاص �
 #: wordpress-importer.php:372
 msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
 msgstr "ساختن کاربر جدید برای %s ناموفق بود. نوشته‌های ایشان به کاربر فعلی اختصاص خواهد یافت."
-
-#: wordpress-importer.php:308
-msgid "or create new user with login name:"
-msgstr "يا یک کاربر جدید با این شناسه کاربری بساز:"
-
-#: parsers.php:42 parsers.php:72 parsers.php:80
-msgid "There was an error when reading this WXR file"
-msgstr "خطایی هنگام خواندن این پرونده WXR وجود دارد"
-
-#: wordpress-importer.php:1136
-msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
-msgstr " نسخه جديد اين درون ريز آماده است.لطفا به روز رسانی به نسخه%s برای اطمینان از سازگاری با پرونده های برون ريز جدیدتر."
-
-#. Description of the plugin/theme
-msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
-msgstr "درون ريز نوشته ها، برگه ها، ديدگاه ها ، زمينه هاي دلخواه، دسته ها، برچسب ها و بقيه از يك پرونده برون ريزي شده وردپرس."
-
-#: parsers.php:43
-msgid "Details are shown above. The importer will now try again with a different parser..."
-msgstr "جزئیات در بالا نشان داده شده‌اند. درون‌ریز اکنون با یک مفسر جدید تلاش خواهد کرد..."
-
-#: parsers.php:84 parsers.php:89 parsers.php:306 parsers.php:502
-msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
-msgstr "این به نظر نمی‌رسد که یک پرونده WXR باشد، نگارش WXR نامعتبر/فراموش شده است"
-
-#: wordpress-importer.php:133
-msgid "The file does not exist, please try again."
-msgstr "پرونده موجود نيست،دوباره آزمايش كنيد."
-
-#: wordpress-importer.php:177
-msgid "Remember to update the passwords and roles of imported users."
-msgstr "به‌یاد داشته باشید که رمزهای عبور و نقش‌های کاربران درون‌ریزی شده را به‌روزرسانی کنید."
-
-#: wordpress-importer.php:940
-msgid "Fetching attachments is not enabled"
-msgstr "دریافت پیوست‌ها فعال نشده است"
-
-#: wordpress-importer.php:877
-msgid "Menu item skipped due to invalid menu slug: %s"
-msgstr "به دلیل نامک فهرست نامعتبر، از گزینه فهرست پرش شد: %s"
-
-#: wordpress-importer.php:267
-msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
-msgstr "اگر یک کاربر جدید توسط وردپرس ایجاد شود، یک رمز عبور تصادفی ساخته می‌شود و نقش کاربر جدید به‌عنوان %s خواهد بود. تغییر جزئیات کاربر جدید به‌صورت دستی لازم است."
-
-#: wordpress-importer.php:213
-msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
-msgstr "این پرونده WXR (نگارش %s) احتمالاً توسط این نگارش از درون‌ریز پشتیبانی نشده است. لطفاً به‌روزرسانی را امتحان کنید."
-
-#: wordpress-importer.php:311
-msgid "as a new user:"
-msgstr "به‌عنوان یک کاربر جدید:"
-
-#: wordpress-importer.php:319
-msgid "assign posts to an existing user:"
-msgstr "اختصاص دادن نوشته‌ها به یک کاربر موجود:"
-
-#: wordpress-importer.php:704
-msgid "Failed to import %s &#8220;%s&#8221;"
-msgstr "درون‌ریزی %s &#8220;%s&#8221; ناموفق بود"
-
-#: wordpress-importer.php:870
-msgid "Menu item skipped due to missing menu slug"
-msgstr "به‌دلیل نداشتن نامک فهرست، این گزینه فهرست پرش شد"
-
-#: wordpress-importer.php:642
-msgid "%s &#8220;%s&#8221; already exists."
-msgstr "%s &#8220;%s&#8221; هم‌اکنون وجود دارد."
 
 #: wordpress-importer.php:467
 msgid "Failed to import post tag %s"
@@ -111,21 +125,53 @@ msgstr "درون‌ریزی %s %s ناموفق بود"
 msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
 msgstr "درون‌ریزی &#8220;%s&#8221; ناموفق بود: ساختار نوشته نامعتبر (%s)"
 
-#: wordpress-importer.php:265
-msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
-msgstr "برای آسان کردن ویرایش برای شما و ذخیره محتوای درون‌ریزی شده، شما ممکن است بخواهید نویسنده موارد درون‌ریزی شده را به یک کاربر موجود از این سایت اختصاص دهید. برای مثال، شما ممکن است بخواهید همه موارد را به عنوان ارسال‌های <code>admin</code> درون‌ریزی کنید."
+#: wordpress-importer.php:870
+msgid "Menu item skipped due to missing menu slug"
+msgstr "به‌دلیل نداشتن نامک فهرست، این گزینه فهرست پرش شد"
 
-#: wordpress-importer.php:238
-msgid "Failed to import author %s. Their posts will be attributed to the current user."
-msgstr "ناموفق در درون‌ریزی نویسنده (%s). نوشته‌های ایشان به کاربر فعلی تخصیص داده خواهد شد."
+#: wordpress-importer.php:704
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "درون‌ریزی %s &#8220;%s&#8221; ناموفق بود"
+
+#: wordpress-importer.php:642
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; هم‌اکنون وجود دارد."
+
+#: wordpress-importer.php:877
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "به دلیل نامک فهرست نامعتبر، از گزینه فهرست پرش شد: %s"
+
+#: wordpress-importer.php:940
+msgid "Fetching attachments is not enabled"
+msgstr "دریافت پیوست‌ها فعال نشده است"
+
+#: wordpress-importer.php:953
+msgid "Invalid file type"
+msgstr "نوع پرونده معتبر نيست"
+
+#: wordpress-importer.php:1003
+msgid "Remote server did not respond"
+msgstr "سرور از راه دور جواب نمی دهد"
+
+#: wordpress-importer.php:1018
+msgid "Remote file is incorrect size"
+msgstr "اندازه پرونده دور، نادرست است"
 
 #: wordpress-importer.php:1011
 msgid "Remote server returned error response %1$d %2$s"
 msgstr "سرور دور پاسخ خطای %1$d %2$s را بازگرداند"
 
+#: wordpress-importer.php:1029
+msgid "Remote file is too large, limit is %s"
+msgstr "پرونده دوردست، بسیار بزرگ است. محدودیت %s است"
+
 #: wordpress-importer.php:1023
 msgid "Zero size file downloaded"
 msgstr "پرونده با اندازه صفر بارگیری شده"
+
+#: wordpress-importer.php:1136
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr " نسخه جديد اين درون ريز آماده است.لطفا به روز رسانی به نسخه%s برای اطمینان از سازگاری با پرونده های برون ريز جدیدتر."
 
 #: wordpress-importer.php:1129
 msgid "Import WordPress"
@@ -135,75 +181,29 @@ msgstr "درون‌ریزی وردپرس"
 msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
 msgstr "درود! پرونده RSS توسعه‌یافته وردپرس (WXR) خود را بارگذاری کنید و ما نوشته‌ها، برگه‌ها، دیدگاه‌ها، زمینه‌های دلخواه، دسته‌ها و برچسب‌ها را در این سایت، درون‌ریزی خواهیم کرد."
 
-#: wordpress-importer.php:264
-msgid "Assign Authors"
-msgstr "اختصاص دادن نویسندگان"
-
-#. Author of the plugin/theme
-msgid "wordpressdotorg"
-msgstr "wordpressdotorg"
-
-#: wordpress-importer.php:322
-msgid "- Select -"
-msgstr "- انتخاب -"
-
-#: wordpress-importer.php:176
-msgid "Have fun!"
-msgstr "سرگرم باشيد!"
-
-#: wordpress-importer.php:953
-msgid "Invalid file type"
-msgstr "نوع پرونده معتبر نيست"
-
-#: wordpress-importer.php:176
-msgid "All done."
-msgstr "انجام شد."
-
-#: wordpress-importer.php:297
-msgid "Import author:"
-msgstr "كاربر درون ريز:"
-
-#: wordpress-importer.php:277
-msgid "Import Attachments"
-msgstr "درون‌ریزی پیوست‌ها"
-
-#: wordpress-importer.php:280
-msgid "Download and import file attachments"
-msgstr "دانلود و درون‌ریزی فایل‌های پیوست"
-
-#. Plugin Name of the plugin/theme
-msgid "WordPress Importer"
-msgstr "درون‌ریز وردپرس"
-
-#: wordpress-importer.php:1029
-msgid "Remote file is too large, limit is %s"
-msgstr "پرونده دوردست، بسیار بزرگ است. محدودیت %s است"
-
-#: wordpress-importer.php:1018
-msgid "Remote file is incorrect size"
-msgstr "اندازه پرونده دور، نادرست است"
+#: wordpress-importer.php:1152
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "یک پرونده WXR (.xml) را برای بارگذاری انتخاب کنید، سپس روی بارگذاری پرونده کلیک کنید و درون‌ریزی کنید."
 
 #: wordpress-importer.php:1226
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "درون‌ریزی <strong>نوشته‌ها، برگه‌ها، دیدگاه‌ها، زمینه‌های دلخواه، دسته‌ها و برچسب‌ها</strong> از یک پرونده برون‌ریزی‌شده وردپرس (WXR)."
 
-#: wordpress-importer.php:132 wordpress-importer.php:141
-#: wordpress-importer.php:192 wordpress-importer.php:196
-#: wordpress-importer.php:205
-msgid "Sorry, there has been an error."
-msgstr "متأسفیم، اینجا خطایی رخ داده است."
-
-#: wordpress-importer.php:197
-msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
-msgstr "پرونده برون‌بری یافت نشد در <code>%s</code>.ممکن است به دلیل دسترسی‌ها باشد."
-
-#: wordpress-importer.php:1003
-msgid "Remote server did not respond"
-msgstr "سرور از راه دور جواب نمی دهد"
-
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/wordpress-importer/"
 msgstr "https://wordpress.org/plugins/wordpress-importer/"
+
+#. Plugin Name of the plugin/theme
+msgid "WordPress Importer"
+msgstr "درون‌ریز وردپرس"
+
+#. Description of the plugin/theme
+msgid "Import posts, pages, comments, custom fields, categories, tags and more from a WordPress export file."
+msgstr "درون ريز نوشته ها، برگه ها، ديدگاه ها ، زمينه هاي دلخواه، دسته ها، برچسب ها و بقيه از يك پرونده برون ريزي شده وردپرس."
+
+#. Author of the plugin/theme
+msgid "wordpressdotorg"
+msgstr "wordpressdotorg"
 
 #. Author URI of the plugin/theme
 msgid "https://wordpress.org/"

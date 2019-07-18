@@ -1,0 +1,752 @@
+# Translation of Plugins - WP Telegram (Auto Post and Notifications) - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - WP Telegram (Auto Post and Notifications) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-06-03 06:31:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - WP Telegram (Auto Post and Notifications) - Stable (latest release)\n"
+
+#: admin/class-wptelegram-admin-settings.php:820
+msgid "Remove All"
+msgstr "حذف همه"
+
+#: admin/class-wptelegram-admin-settings.php:818
+msgid "Add"
+msgstr "اضافه کردن"
+
+#: admin/class-wptelegram-admin-settings.php:810
+msgid "Send file(s)"
+msgstr "ارسال فایل(ها)"
+
+#: admin/class-wptelegram-admin-settings.php:414
+msgid "You can bypass the ban on Telegram by making using of Google Scripts. The requests will be sent via your Google Script. See this tutorial"
+msgstr "با استفاده از اسکریپت های گوگل می توانید از ممنوعیت Telegram جلوگیری کنید. درخواست ها از طریق Google Script شما ارسال می شوند. این آموزش را ببینید"
+
+#: admin/class-wptelegram-admin-settings.php:420
+msgid "OR"
+msgstr "یا"
+
+#: admin/class-wptelegram-admin-settings.php:413
+msgid "Google Script URL"
+msgstr "لینک اسکریپت گوگل"
+
+#: admin/class-wptelegram-admin-settings.php:439
+msgid "Proxy Type"
+msgstr "نوع پروکسی"
+
+#: admin/class-wptelegram-admin-settings.php:79
+msgid "Disclaimer! Use the proxy at your own risk!"
+msgstr "سلب مسئولیت! عواقب استفاده از پروکسی به عهده خود شماست!"
+
+#: admin/class-wptelegram-admin-settings.php:80
+msgid "Proxy Settings"
+msgstr "تنظیمات پروکسی"
+
+#: admin/class-wptelegram-admin-settings.php:454
+#: admin/class-wptelegram-admin-settings.php:461
+msgid "Leave empty if not required"
+msgstr "اگر لازم نیست خالی بگذارید"
+
+#: admin/class-wptelegram-admin-settings.php:460
+msgid "Password"
+msgstr "پسورد"
+
+#: admin/class-wptelegram-admin-settings.php:432
+msgid "Proxy Port"
+msgstr "پورت پروکسی"
+
+#: admin/class-wptelegram-admin-settings.php:433
+msgid "Target Port like %s"
+msgstr "پورت هدف مانند %s"
+
+#: admin/class-wptelegram-admin-settings.php:453
+msgid "Username"
+msgstr "نام کاربری"
+
+#: admin/class-wptelegram-admin-settings.php:425
+msgid "Proxy Host"
+msgstr "میزبان پروکسی"
+
+#: admin/class-wptelegram-admin-settings.php:426
+msgid "Host IP or domian name like %s"
+msgstr "IP هاست یا نام دامنه مثل %s"
+
+#: admin/class-wptelegram-admin.php:137
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: admin/class-wptelegram-admin-settings.php:398
+msgid "Notifications to Users"
+msgstr "اعلان به کاربران"
+
+#: admin/class-wptelegram-admin-settings.php:400
+msgid "Allow users to receive their email notifications on Telegram"
+msgstr "به کاربران اجازه دریافت اعلان های ایمیلی از طریق تلگرام را بده"
+
+#: public/class-wptelegram-public.php:157
+msgid "Please Enter a valid Chat ID"
+msgstr "لطفا یک شناسه چت معتبر وارد نمایید"
+
+#: public/partials/wptelegram-profile-fields.php:21
+msgid "Telegram Info"
+msgstr "اطلاعات تلگرام"
+
+#: public/partials/wptelegram-profile-fields.php:26
+msgid "Telegram Chat ID"
+msgstr "شناسه چت تلگرام"
+
+#: public/partials/wptelegram-profile-fields.php:30
+msgid "Please enter your Telegram Chat ID"
+msgstr "لطفا شناسه چت تلگرام خود را وارد کنید"
+
+#: public/partials/wptelegram-profile-fields.php:40
+msgid "Enter the received chat_id in the field above"
+msgstr "chat_id دریافت شده را در فیلد بالا وارد کنید"
+
+#: public/partials/wptelegram-profile-fields.php:41
+msgid "Also start a conversation with %s to receive notifications"
+msgstr "همچنین از طریق %s گفتگویی را شروع کنید تا اعلانها را دریافت نمایید"
+
+#: public/partials/wptelegram-profile-fields.php:22
+msgid "You can receive your email notifications on Telegram from %s"
+msgstr "شما می توانید اعلان های ایمیلی خود را روی تلگرام از طریق %s دریافت کنید."
+
+#: admin/class-wptelegram-admin-settings.php:345
+msgid "Miscellaneous"
+msgstr "متفرقه"
+
+#: admin/class-wptelegram-admin-settings.php:351
+msgid "Do not send the second message as a reply to the first"
+msgstr "پیام دوم را به عنوان پاسخ به پیام اول ارسال نکن"
+
+#: admin/class-wptelegram-admin-settings.php:482
+msgid "Create a Bot by sending %s command to %s"
+msgstr "ایجاد یک ربات با ارسال %s دستور به %s"
+
+#: admin/class-wptelegram-admin-settings.php:481
+msgid "Create a Channel/group/supergroup"
+msgstr "ایجاد یک کانال/گروه/سوپرگروه"
+
+#: admin/class-wptelegram-admin-settings.php:493
+msgid "Hit %s below"
+msgstr "آمار %s در پایین"
+
+#: admin/partials/wptelegram-admin-display.php:193
+msgid "Failure"
+msgstr "ناموفق"
+
+#: admin/class-wptelegram-admin-settings.php:121
+msgid "Channel Username(s) or Chat ID(s)"
+msgstr "نام کاربری کانال و یا شناسه چت"
+
+#: admin/partials/wptelegram-admin-display.php:188
+msgid "Success"
+msgstr "موفق"
+
+#: admin/class-wptelegram-admin-settings.php:249
+msgid "Post Content before Read More tag"
+msgstr "محتوای پست قبل از تگ ادامه مطلب"
+
+#: admin/partials/wptelegram-admin-header.php:19
+msgid "Need help?"
+msgstr "کمک نیاز دارید؟"
+
+#: admin/partials/wptelegram-admin-header.php:33
+msgid "Follow"
+msgstr "دنبال کردن"
+
+#: includes/wptelegram-bot-api/classes/class-wptelegram_bot_api.php:162
+msgid "Bot Token is required to make a request"
+msgstr "جهت ارسال درخواست نیاز به توکن روبات دارد"
+
+#: admin/class-wptelegram-admin-settings.php:256
+msgid "Number of words for the excerpt. Won't be used when Caption Source is \"Post Content before Read More tag\""
+msgstr "تعداد کلمات برای بخش چکیده، زمانی که Caption Source \"محتوای ارسالی قبل از تگ ادامه مطلب\" استفاده شود، نمایش داده نخواهد شد."
+
+#: admin/partials/wptelegram-admin-header.php:19
+msgid "Shout in"
+msgstr "بروید به"
+
+#: admin/class-wptelegram-admin.php:226
+msgid "Core"
+msgstr "هسته"
+
+#: admin/partials/wptelegram-admin-header.php:37
+msgid "Join"
+msgstr "Join"
+
+#: admin/class-wptelegram-admin-settings.php:99
+#: admin/class-wptelegram-admin-settings.php:123
+#: admin/class-wptelegram-admin-settings.php:228
+#: admin/class-wptelegram-admin-settings.php:361
+msgid "e.g."
+msgstr "به عنوان مثال"
+
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "should not be checked"
+msgstr "نباید بررسی شود"
+
+#: admin/class-wptelegram-admin-settings.php:359
+msgid "Chat ID"
+msgstr "شناسه چت"
+
+#: admin/class-wptelegram-admin-settings.php:392
+msgid "Must begin with"
+msgstr "باید شروع شود با"
+
+#: admin/class-wptelegram-admin-settings.php:493
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: admin/class-wptelegram-admin-settings.php:544
+#: public/partials/wptelegram-profile-fields.php:36
+msgid "INSTRUCTIONS!"
+msgstr "دستورالعمل ها!"
+
+#: admin/class-wptelegram-admin-settings.php:667
+#: admin/class-wptelegram-admin-settings.php:668
+msgid "For example %s"
+msgstr "به طور مثال %s"
+
+#: admin/class-wptelegram-admin-settings.php:317
+#: admin/class-wptelegram-admin-settings.php:349
+msgid "Disable Web Page Preview"
+msgstr "غیر فعال کردن پیش نمایش صفحات وب"
+
+#: admin/class-wptelegram-admin.php:269
+msgid "Remove settings on uninstall"
+msgstr "حذف تنظیمات انجام شده هنگامی که افزونه حذف می شود."
+
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "Parse Mode should NOT be"
+msgstr "حالت تجزیه نباید باشد"
+
+#: admin/class-wptelegram-admin-settings.php:479
+msgid "ATTENTION!"
+msgstr "توجه!"
+
+#: admin/class-wptelegram-admin-settings.php:335
+msgid "Telegram limits photo caption to 200 characters."
+msgstr "تلگرام، کپشن زیر عکس را به 200 حرف محدود کرده است."
+
+#: admin/class-wptelegram-admin-settings.php:335
+msgid "If the Media Library caption is not used and the Message Template exceeds the limit, the remaining part of the Template will be sent separately after the photo without breaking the words."
+msgstr "اگر کپشن کتابخانه رسانه مورد استفاده قرار نگیرد و اندازه پیام بیش از حد باشد، بخش باقی مانده از متن به طور جداگانه پس از عکس بدون شکستن کلمات ارسال می شود."
+
+#: admin/class-wptelegram-admin-settings.php:489
+msgid "Username must start with %s"
+msgstr "نام کاربری باید با %s شروع شود."
+
+#: admin/class-wptelegram-admin-settings.php:70
+msgid "Notification Settings"
+msgstr "تنظیمات اعلان ها"
+
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "If enabled:"
+msgstr "اگر فعال باشد:"
+
+#: admin/class-wptelegram-admin-settings.php:391
+msgid "Hashtag (optional)"
+msgstr "هشتگ (اختیاری)"
+
+#: admin/class-wptelegram-admin-settings.php:547
+msgid "Every Telegram user or group has a unique ID called"
+msgstr "هر کاربر یا گروه تلگرام دارای شناسه منحصر به فرد است"
+
+#: admin/class-wptelegram-admin-settings.php:551
+msgid "Follow these steps:"
+msgstr "این مراحل را دنبال کنید:"
+
+#: admin/class-wptelegram-admin-settings.php:553
+#: public/partials/wptelegram-profile-fields.php:38
+msgid "Send a message to %s"
+msgstr "ارسال یک پیام به %s"
+
+#: admin/class-wptelegram-admin-settings.php:559
+msgid "Enter the received chat_id in the field below"
+msgstr "chat_id دریافت شده را در فیلد زیر وارد کنید"
+
+#: admin/class-wptelegram-admin-settings.php:490
+msgid "You can also use the Chat ID of a private chat with the Bot, see Notification Settings"
+msgstr "شما همچنین می توانید از شناسه یک چت خصوصی با ربات استفاده کنید، به تنظیمات اطلاع رسانی مراجعه کنید."
+
+#: admin/class-wptelegram-admin-settings.php:560
+msgid "Start the conversation with your bot, bots cannot initialize a conversation."
+msgstr "ربات خود را استارت کنید، رباتها نمی توانند خود یک گفتگو را آغاز کنند!"
+
+#: admin/class-wptelegram-admin-settings.php:543
+msgid "In this section you can set/change the settings related to Notifications sent to Telegram"
+msgstr "در این بخش می توانید تنظیمات مربوط به اعلان های ارسال شده به تلگرام را تنظیم/تغییر دهید."
+
+#: admin/class-wptelegram-admin-settings.php:392
+msgid "Add a hashtag at the end of the message."
+msgstr "در پایان پیام هشتگ اضافه کنید."
+
+#: admin/class-wptelegram-admin-settings.php:550
+msgid "In order to receive notifications through your bot, you need to find your"
+msgstr "برای دریافت اطلاعیه ها از طریق ربات خود، شما نیاز دارید پیدا کنید"
+
+#: admin/class-wptelegram-admin-settings.php:360
+msgid "If more than one, separate them by comma. Read the instructions above"
+msgstr "اگر بیش از یکی هستند، آنها را با کاما جدا کنید. دستورالعمل های بالا را بخوانید."
+
+#: admin/class-wptelegram-admin-settings.php:384
+msgid "If you want to receive notification for every sent email, write"
+msgstr "اگر می خواهید برای هر ایمیل ارسالی مطلع شوید، بنویسید!"
+
+#: admin/class-wptelegram-admin-settings.php:555
+msgid "If you want to receive notifications into a group, then add %s to the group and it will send you the group ID."
+msgstr "اگر می خواهید اعلان ها را در یک گروه دریافت کنید %s را به گروه اضافه کنید تا شناسه گروه را برای شما ارسال کند۔"
+
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "Useful if you want everything in one message."
+msgstr "اگر می خواهید همه محتوا در قالب یک پیام باشد."
+
+#: admin/class-wptelegram-admin-settings.php:548
+msgid "It is different from a username and is visible only to bots."
+msgstr "این یک نام کاربری متفاوت است و فقط برای ربات ها قابل مشاهده است."
+
+#: admin/class-wptelegram-admin-settings.php:549
+msgid "This chat_id is used by the bots to send messages to a user or group."
+msgstr "این chat_id توسط ربات ها برای ارسال پیام به یک کاربر یا گروه استفاده می شود."
+
+#: admin/class-wptelegram-admin-settings.php:383
+msgid "Email(s) to watch"
+msgstr "ایمیل های اطلاع رسانی"
+
+#: admin/class-wptelegram-admin-settings.php:384
+msgid "WP Telegram will watch the Email Notifications sent from this site, if the email is sent to one of the above email ids, it will be sent to you on Telegram by your bot. It does not matter whether the email was successfully sent or not."
+msgstr "WP Telegram اطلاعیه های ایمیل ارسال شده از این سایت را مشاهده خواهد کرد، اگر ایمیل به یکی از شناسه های ایمیل فرستاده شود، توسط ربات شما به Telegram شما ارسال خواهد شد. مهم نیست که ایمیل با موفقیت فرستاده شده یا نه."
+
+#: admin/class-wptelegram-admin-settings.php:557
+msgid "Do not forget to add your own bot to the group."
+msgstr "یادتان نرود که ربات را به عنوان مدیر به گروهتان اضافه کنید!"
+
+#: admin/class-wptelegram-admin-settings.php:384
+msgid "Usually it should be the admin email"
+msgstr "معمولا این ایمیل مدیر می باشد."
+
+#: admin/class-wptelegram-admin-settings.php:545
+msgid "IMPORTANT! First complete at least first 4 steps in Telegram Settings section, otherwise notifications won't be sent"
+msgstr "مهم! ابتدا حداقل چهار مرحله اول را در بخش تنظیمات تلگرام انجام دهید، در غیر این صورت اطلاعیه ها ارسال نخواهند شد."
+
+#: admin/class-wptelegram-admin-settings.php:554
+#: public/partials/wptelegram-profile-fields.php:39
+msgid "It will send you your Telegram chat_id."
+msgstr "chat_id تلگرام را برای شما ارسال خواهد شد."
+
+#: admin/class-wptelegram-admin-settings.php:193
+msgid "Authors"
+msgstr "نویسندگان"
+
+#: admin/class-wptelegram-admin-settings.php:199
+msgid "Post from all Authors"
+msgstr "پست از همه نویسندگان"
+
+#: admin/class-wptelegram-admin-settings.php:242
+msgid "Excerpt Source"
+msgstr "منبع چکیده"
+
+#: admin/class-wptelegram-admin-settings.php:248
+msgid "Post Content"
+msgstr "محتوای پست"
+
+#: admin/class-wptelegram-admin-settings.php:250
+msgid "Post Excerpt"
+msgstr "چکیده پست"
+
+#: admin/class-wptelegram-admin-settings.php:255
+msgid "Excerpt Length"
+msgstr "طول چکیده"
+
+#: admin/class-wptelegram-admin-settings.php:170
+msgid "Categories/Terms"
+msgstr "دسته ها/بخش ها"
+
+#: admin/class-wptelegram-admin-settings.php:178
+#: admin/class-wptelegram-admin-settings.php:201
+msgid "Do not post from selected ones"
+msgstr "از موارد انتخاب شده ارسال نکن"
+
+#: admin/class-wptelegram-admin-settings.php:176
+msgid "Post from all Categories/Terms"
+msgstr "ارسال پست از همه دسته ها/بخش های مشخص شده"
+
+#: admin/class-wptelegram-admin-settings.php:177
+#: admin/class-wptelegram-admin-settings.php:200
+msgid "Post only from selected ones"
+msgstr "ارسال پست فقط از موارد انتخاب شده"
+
+#: admin/class-wptelegram-admin-settings.php:184
+msgid "The rule will apply to the selected categories/terms and their children"
+msgstr "این قانون برای دسته ها و بخش های انتخاب شده و زیر مجموعه هایشان اعمال خواهد شد."
+
+#: admin/class-wptelegram-admin-settings.php:209
+msgid "The authors not chosen to post from, will not see the ON/OFF switch on the post edit screen"
+msgstr "نویسندگان انتخاب شده، کلید ON / OFF را در صفحه ویرایش نوشته نمی بینند."
+
+#: admin/class-wptelegram-admin.php:358
+msgid "Reason: "
+msgstr "دلیل:"
+
+#: admin/class-wptelegram-admin.php:239
+msgid "Sorry, you are not allowed to access this page."
+msgstr "با عرض پوزش، شما مجاز به دسترسی به این صفحه نیستید."
+
+#: admin/class-wptelegram-admin.php:356
+msgid "WP Telegram failed to communicate."
+msgstr "ارتباط با WP Telegram برقرار نشد."
+
+#: admin/partials/wptelegram-admin-header.php:26
+msgid "Get connected"
+msgstr "ما را دنبال کنید"
+
+#: admin/class-wptelegram-admin-settings.php:302
+msgid "Image Position"
+msgstr "موقعیت تصویر"
+
+#: admin/class-wptelegram-admin-settings.php:307
+msgid "Before the Text"
+msgstr "قبل از متن"
+
+#: admin/class-wptelegram-admin-settings.php:308
+msgid "After the Text"
+msgstr "بعد از متن"
+
+#: admin/class-wptelegram-admin-settings.php:326
+msgid "With Caption"
+msgstr "با کپشن"
+
+#: admin/class-wptelegram-admin-settings.php:327
+msgid "Without Caption"
+msgstr "بدون کپشن"
+
+#: admin/class-wptelegram-admin-settings.php:338
+msgid "Only Media Library"
+msgstr "فقط کتابخانه رسانه ای"
+
+#: admin/class-wptelegram-admin-settings.php:340
+msgid "Only Message Template"
+msgstr "فقط قالب پیام"
+
+#: admin/class-wptelegram-admin-settings.php:314
+msgid "Attach the image below the text"
+msgstr "تصویر را به زیر متن ضمیمه کنید"
+
+#: admin/class-wptelegram-admin-settings.php:335
+msgid "If \"Image Position\" is set to \"After the Text\", then \"Only Media Library\" caption can be used."
+msgstr "اگر \"موقعیت تصویر \" به \"بعد از متن \" تنظیم شده باشد، می توان فقط از کپشن\"کتابخانه رسانه\" استفاده کرد."
+
+#: admin/class-wptelegram-admin-settings.php:339
+msgid "Media Library or Message Template (former preferred if not empty)"
+msgstr "کتابخانه رسانه یا قالب پیام (چیزی که در ذهن دارید ایجاد کنید یا آن را خالی بگذارید)"
+
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "Caption cannot be used"
+msgstr "کپشن نمی تواند استفاده شود"
+
+#: admin/class-wptelegram-admin-settings.php:321
+msgid "How to send the image?"
+msgstr "چگونه تصویر را ارسال کنیم؟"
+
+#: admin/class-wptelegram-admin-settings.php:332
+msgid "Caption Source"
+msgstr "منبع کپشن"
+
+#. Description of the plugin/theme
+msgid "Get notifications and send posts automatically to Telegram when published or updated, whether to a Telegram Channel, Group, Supergroup or private chat, with full control..."
+msgstr "دریافت اطلاعیه ها و ارسال پست ها به صورت خودکار به یک کانال، گروه، سوپرگروه یا چت خصوصی در تلگرام، با کنترل کامل ..."
+
+#. Author URI of the plugin/theme
+msgid "https://t.me/manzoorwanijk"
+msgstr "https://t.me/manzoorwanijk"
+
+#: admin/class-wptelegram-admin-settings.php:98
+msgid "Please read the instructions above"
+msgstr "لطفا دستورالعمل بالا را بخوانید"
+
+#: admin/class-wptelegram-admin-settings.php:268
+msgid "Learn more"
+msgstr "بیشتر بدانید"
+
+#: admin/class-wptelegram-admin-settings.php:663
+msgid "Click to insert"
+msgstr "برای اضافه کردن کلیک کنید"
+
+#: admin/class-wptelegram-admin-settings.php:772
+msgid "Message"
+msgstr "پیام"
+
+#: admin/class-wptelegram-admin-settings.php:825
+msgid "Template"
+msgstr "قالب"
+
+#: admin/class-wptelegram-admin.php:363 public/class-wptelegram-public.php:157
+msgid "Error: "
+msgstr "خطا:"
+
+#: admin/class-wptelegram-admin-settings.php:663
+msgid "You can use any text, emojis or these macros in any order:"
+msgstr "شما می توانید از هر نوع متن، شکلک ها یا این دستورات به هر طریقی استفاده کنید:"
+
+#: admin/class-wptelegram-admin-settings.php:227
+msgid "Structure of the message to be sent"
+msgstr "ساختار پیام ارسالی"
+
+#: admin/class-wptelegram-admin-settings.php:785
+msgid "Send to"
+msgstr "ارسال به"
+
+#: admin/class-wptelegram-admin-settings.php:122
+#: admin/class-wptelegram-admin-settings.php:384
+msgid "If more than one, separate them by comma"
+msgstr "اگر بیشتر از یکی هستند، آنها را با کاما جدا کنید."
+
+#: admin/class-wptelegram-admin-settings.php:791
+msgid "All Channels/Chats"
+msgstr "همه کانال ها/چت ها"
+
+#: admin/class-wptelegram-admin-settings.php:806
+msgid "No Channels/Chat IDs found"
+msgstr "چت/کانالی یافت نشد."
+
+#: admin/class-wptelegram-admin-settings.php:209
+#: admin/class-wptelegram-admin-settings.php:317
+#: admin/class-wptelegram-admin-settings.php:335
+#: admin/class-wptelegram-admin-settings.php:384
+#: admin/class-wptelegram-admin-settings.php:665
+msgid "Note:"
+msgstr "توجه:"
+
+#: admin/class-wptelegram-admin-settings.php:52
+msgid "Telegram Settings"
+msgstr "تنظیمات تلگرام"
+
+#: admin/class-wptelegram-admin-settings.php:58
+msgid "WordPress Settings"
+msgstr "تنظیمات وردپرس"
+
+#: admin/class-wptelegram-admin-settings.php:64
+msgid "Message Settings"
+msgstr "تنظیمات پیام ها"
+
+#: admin/class-wptelegram-admin-settings.php:106
+#: admin/partials/wptelegram-admin-display.php:73
+msgid "Test Token"
+msgstr "آزمایش توکن"
+
+#: admin/class-wptelegram-admin-settings.php:130
+#: admin/class-wptelegram-admin-settings.php:368
+#: admin/partials/wptelegram-admin-display.php:160
+msgid "Send Test"
+msgstr "ارسال متن آزمایشی"
+
+#: admin/class-wptelegram-admin-settings.php:147
+msgid "When to send?"
+msgstr "چه موقع ارسال شود؟"
+
+#: admin/class-wptelegram-admin-settings.php:160
+msgid "Which post type(s) to send?"
+msgstr "چه نوع مطلبی ارسال شود؟"
+
+#: admin/class-wptelegram-admin-settings.php:215
+msgid "When editing a post"
+msgstr "هنگام ویرایش یک پست"
+
+#: admin/class-wptelegram-admin-settings.php:217
+msgid "Show an ON/OFF switch on the post edit screen"
+msgstr "نمایش دکمه ON / OFF در صفحه ویرایش پست"
+
+#: admin/class-wptelegram-admin-settings.php:226
+msgid "Message Template"
+msgstr "شکل محتوای پیام"
+
+#: admin/class-wptelegram-admin-settings.php:267
+msgid "Parse Mode"
+msgstr "حالت تجزیه"
+
+#: admin/class-wptelegram-admin-settings.php:273
+#: admin/class-wptelegram-admin-settings.php:317
+msgid "None"
+msgstr "هیچ کدام"
+
+#: admin/class-wptelegram-admin-settings.php:274
+msgid "Markdown style"
+msgstr "سبک نشانه گذاری"
+
+#: admin/class-wptelegram-admin-settings.php:294
+msgid "Featured Image"
+msgstr "تصویر شاخص"
+
+#: admin/class-wptelegram-admin-settings.php:350
+msgid "Disable Notifications"
+msgstr "غیرفعال کردن اعلانها"
+
+#: admin/class-wptelegram-admin-settings.php:484
+msgid "After completing the steps %s will provide you the Bot Token."
+msgstr "پس از اتمام مراحل %s به شما یک توکن ربات را می دهد۔"
+
+#: admin/class-wptelegram-admin-settings.php:494
+msgid "That's it. Happy WPTelegram :)"
+msgstr "خودشه از پلاگین لذت ببرید :)"
+
+#: admin/class-wptelegram-admin-settings.php:508
+#: includes/wptelegram-functions.php:164
+msgid "Invalid Bot Token"
+msgstr "توکن نامعتبر است"
+
+#: admin/class-wptelegram-admin-settings.php:519
+msgid "Members Count:"
+msgstr "تعداد کاربران:"
+
+#: admin/class-wptelegram-admin-settings.php:525
+msgid "Chat_id"
+msgstr "Chat_id"
+
+#: admin/class-wptelegram-admin-settings.php:527
+msgid "Chat Type"
+msgstr "نوع چت"
+
+#: admin/class-wptelegram-admin-settings.php:528
+msgid "Test Status"
+msgstr "وضعیت تست"
+
+#: admin/class-wptelegram-admin-settings.php:769
+msgid "Override default settings"
+msgstr "نادیده گرفتن تنظیمات پیشفرض"
+
+#: admin/class-wptelegram-admin-settings.php:776
+msgid "Send"
+msgstr "ارسال"
+
+#: admin/class-wptelegram-admin-settings.php:780
+msgid "Do not Send"
+msgstr "ارسال نکن"
+
+#: admin/partials/wptelegram-admin-display.php:77
+msgid "Bot Token is empty"
+msgstr "توکن ربات خالی است"
+
+#: admin/partials/wptelegram-admin-display.php:136
+msgid "Bot Token is invalid"
+msgstr "توکن ربات نامعتبر است"
+
+#: admin/partials/wptelegram-admin-display.php:165
+msgid "Bot Token or chat_ids is empty"
+msgstr "توکن ربات یا chat_ids خالی است"
+
+#: admin/class-wptelegram-admin-settings.php:216
+msgid "You can use this switch to override the above settings for a particular post"
+msgstr "شما می توانید از این کلید برای لغو تنظیمات بالا برای یک پست خاص استفاده کنید."
+
+#: admin/class-wptelegram-admin-settings.php:153
+msgid "When publishing a new post"
+msgstr "زمانی که مطلب جدید قرار داده می شود"
+
+#: admin/class-wptelegram-admin-settings.php:486
+msgid "Add the Bot as Administrator to your Channel/Group"
+msgstr "ربات را عنوان مدیریت به کانال/گروه خود اضافه کنید."
+
+#: admin/class-wptelegram-admin-settings.php:65
+msgid "In this section you can change the way messages are sent to Telegram"
+msgstr "در این بخش شما می توانید روش ارسال پیام به تلگرام را تغییر دهید."
+
+#: admin/class-wptelegram-admin-settings.php:59
+msgid "In this section you can teach WordPress how and when to do the job"
+msgstr "در این بخش شما می توانید به وردپرس بگویید که کی و چگونه اینکار را انجام دهد."
+
+#: admin/class-wptelegram-admin-settings.php:478
+msgid "In this section you can change the settings related to Telegram."
+msgstr "در این بخش می توانید تنظیمات مربوط به تلگرام را تغییر دهید."
+
+#: admin/partials/wptelegram-admin-display.php:86
+#: admin/partials/wptelegram-admin-display.php:175
+msgid "Error: Could not connect"
+msgstr "خطا: ارتباط ناموفق"
+
+#: admin/class-wptelegram-admin-settings.php:97
+msgid "Bot Token"
+msgstr "توکن ربات"
+
+#: admin/class-wptelegram-admin-settings.php:485
+msgid "Copy the token and paste into the Bot Token field below."
+msgstr "توکن را کپی کنید و در فیلد \"توکن ربات\" در زیر وارد کنید"
+
+#: admin/class-wptelegram-admin.php:314
+msgid "WP Telegram Options"
+msgstr "تنظیمات WP Telegram"
+
+#: admin/class-wptelegram-admin.php:215 admin/class-wptelegram-admin.php:225
+msgid "WP Telegram Settings"
+msgstr "تنظیمات WP Telegram"
+
+#: admin/class-wptelegram-admin-settings.php:485
+msgid "For ease, use"
+msgstr "برای سهولت استفاده کنید از:"
+
+#: admin/class-wptelegram-admin-settings.php:478
+msgid "To send messages to a Telegram Channel, group, supergroup or a private chat, follow the steps below."
+msgstr "برای ارسال پیام به یک کانال، گروه، سوپرگروه یا یک چت خصوصی در تلگرام مراحل زیر را دنبال کنید."
+
+#: admin/class-wptelegram-admin-settings.php:275
+msgid "HTML style"
+msgstr "استایل HTML"
+
+#: admin/class-wptelegram-admin-settings.php:295
+msgid "Send Featured Image (if exists)"
+msgstr "ارسال تصویر شاخص (اگر وجود داشت)"
+
+#: admin/class-wptelegram-admin-settings.php:481
+msgid "If you haven't"
+msgstr "اگر شما ندارید"
+
+#: admin/partials/wptelegram-admin-display.php:140
+msgid "This is a test message"
+msgstr "این یک پیام تست است."
+
+#. #-#-#-#-#  wptelegram-code.pot (WP Telegram 1.9.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin/class-wptelegram-admin.php:216
+#: admin/partials/wptelegram-admin-header.php:11
+#: admin/partials/wptelegram-admin-header.php:37
+#: includes/class-wptelegram.php:79
+msgid "WP Telegram"
+msgstr "WP Telegram"
+
+#: admin/partials/wptelegram-admin-display.php:140
+msgid "A message will be sent to the chat_ids. You can modify the text below"
+msgstr "یک پیام به chat_ids ارسال خواهد شد، شما می توانید متن زیر را تغییر دهید:"
+
+#: admin/class-wptelegram-admin-settings.php:507
+msgid "Test result:"
+msgstr "نتیجه تست:"
+
+#: admin/class-wptelegram-admin-settings.php:526
+msgid "Name/Title"
+msgstr "نام/عنوان"
+
+#: admin/class-wptelegram-admin-settings.php:154
+msgid "Updating an existing post"
+msgstr "مطلب بروز رسانی می شود"
+
+#: admin/class-wptelegram-admin-settings.php:487
+msgid "Enter the Channel Username(s) or Chat ID(s) separated by comma in the field below"
+msgstr "لطفا نام کاربری کانال و یا شناسه چت را با استفاده از کاما در فیلد پایین وارد کنید"
+
+#: admin/partials/wptelegram-admin-display.php:68
+#: admin/partials/wptelegram-admin-display.php:146
+msgid "Please wait..."
+msgstr "لطفا منتظر باشید..."
+
+#. Author of the plugin/theme
+msgid "Manzoor Wani"
+msgstr "Manzoor Wani"
+
+#. Plugin URI of the plugin/theme
+msgid "https://t.me/WPTelegram"
+msgstr "https://t.me/WPTelegram"
