@@ -1,0 +1,802 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in echo
+#: contact-form-entries/templates/leads-table.php:32
+msgid "#"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Deleted Permanently"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Marked Read"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Marked Unread"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Moved to Trash"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Restored"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Stared"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "%s Unstarred"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:451
+msgid "%s Update is available"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:451
+msgid "%s Update is not available"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:696
+msgid "Activate"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:687
+msgid "Activate %s"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:586
+msgid "Active"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:623
+msgid "Add File"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:722
+msgid "Add Note"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:723
+msgid "Adding Note ..."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:285
+msgid "All Fields"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads-table.php:122
+msgid "All Rows"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:300
+msgid "All Times"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:737
+msgid "Also Send Email To"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:334
+msgid "Apply"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:895
+msgid "Are you sure to delete ?"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:610
+msgid "Are you sure you want to delete?"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:177
+msgid "At least one of these attributes is required, others are optional"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/view.php:464
+msgid "Back to %s"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "Bulk Action"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:704
+msgid "CRM Perks"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "CRM Plugins"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:569
+#: contact-form-entries/templates/view.php:838
+#: contact-form-entries/templates/view.php:926
+msgid "Cancel"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:1
+msgid "Check for updates"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:260
+msgid "Close Window"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/contact-form-entries.php:1281
+msgid "Contact Form Entries Plugin"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "Contact Form Entries Plugin has been successfully uninstalled. It can be re-activated from the %s plugins page %s."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/contact-form-entries.php:1
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Created"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:703
+msgid "Deactivate"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:697
+#: contact-form-entries/includes/plugin-pages.php:204
+#: contact-form-entries/templates/leads.php:489
+msgid "Delete"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:821
+msgid "Delete Permanently"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:204
+msgid "Deleting ..."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/view.php:759
+msgid "Detail"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:586
+msgid "Disabled"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:173
+msgid "Display form entries in a table"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:531
+msgid "Displaying"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:696
+msgid "Don't have a license key? Purchase one %s here %s."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:827
+msgid "Edit"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Edit Entry"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:198
+msgid "Email sent to"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:808
+msgid "Enter License Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:705
+msgid "Enter Your License Key"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Entries"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:82
+msgid "Entries Client ID Changed.Please save new changes first"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Entries Logs Cleared Successfully"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/print.php:276
+msgid "Entry # %d"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "Entry Updated. %sGo back to entries%s"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "Entry could not be updated."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "Entry not found"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Error While Clearing Entries Logs"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:833
+msgid "Error while installing Plugin"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/crmperks-cf.php:54
+#: contact-form-entries/templates/crm-entry-box.php:20
+#: contact-form-entries/templates/view.php:702
+msgid "Expand / Collapse"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:339
+msgid "Export as CSV"
+msgstr ""
+
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "File not uploaded."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:311
+msgid "From Date"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:798
+msgid "Get License Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:200
+msgid "Get ShortCode"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/crmperks-notices.php:89
+#: contact-form-entries/includes/crmperks-notices.php:61
+msgid "Go Premium"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/crmperks-cf.php:65
+msgid "Go Pro!"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:60
+msgid "Go to %sCRM Perks%s Page to manage Add-ons"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:715
+msgid "Go to Settings"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/view.php:840
+msgid "Green Note"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:257
+msgid "Hide Empty Fields"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:65
+msgid "Hide Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:787
+msgid "IP"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:178
+msgid "Identify which column will start the table (e.g., col-start=\"2\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:198
+msgid "If it is sortable, the table is also able to be paginated (e.g., pager=\"true\")"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:798
+msgid "If you don't have a license key, you can get from %shere%s."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:196
+msgid "If you want table columns to be sortable, set sortable to sortable=\"true\""
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/crm-entry-box.php:26
+msgid "Include Notes"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:690
+msgid "Install"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:833
+#: contact-form-entries/includes/plugin-api.php:802
+#: contact-form-entries/includes/plugin-api.php:796
+msgid "License Key"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:820
+msgid "License Key is Valid - %s"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:181
+msgid "List the table font size"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:191
+msgid "List the total number of records the table will contain (e.g., limit=\"300)"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:704
+#: contact-form-entries/includes/add-ons.php:548
+msgid "Manage Add-ons"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/leads.php:422
+msgid "Mark Read"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/leads.php:422
+msgid "Mark Unread"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/crmperks-cf.php:53
+msgid "Marketing Data"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/crmperks-cf.php:65
+msgid "Need Marketing Insight? ,"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:674
+msgid "New Version %s is available."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/contact-form-entries.php:1
+#: contact-form-entries/includes/plugin-pages.php:60
+msgid "No Entry Found"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/crmperks-cf.php:73
+msgid "No Information Available"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads-table.php:89
+#: contact-form-entries/templates/leads.php:518
+msgid "No Record(s) Found"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:1086
+msgid "No fields found."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:586
+msgid "Not Installed"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:194
+msgid "Note created at"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:192
+msgid "Note created by"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:940
+msgid "Note is empty"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:701
+msgid "Notes"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:320
+msgid "Notes."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:96
+msgid "Notification - Remove Connection?"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+msgid "Oops! Something went wrong."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:650
+msgid "Please Select Action"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:654
+msgid "Please select at least one entry"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:153
+msgid "Plugin Data"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:833
+msgid "Plugin installed successfully"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:10
+msgid "Print Entries"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/crm-entry-box.php:19
+#: contact-form-entries/templates/crm-entry-box.php:30
+msgid "Print Entry"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:253
+msgid "Print Preview"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:255
+msgid "Print This Page"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/view.php:840
+msgid "Red Note"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:676
+msgid "Redirecting, Please Wait"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:579
+msgid "Refresh Add-ons List"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:628
+msgid "Remove"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:157
+msgid "Remove all plugin data during plugin uninstall"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:487
+#: contact-form-entries/templates/view.php:820
+msgid "Restore"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:565
+#: contact-form-entries/templates/leads.php:566
+#: contact-form-entries/templates/view.php:833
+#: contact-form-entries/templates/view.php:834
+msgid "Save"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:163
+msgid "Save Changes"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:826
+msgid "Save License Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:708
+msgid "Save Settings"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:567
+#: contact-form-entries/templates/view.php:835
+msgid "Saving ..."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:276
+#: contact-form-entries/templates/leads.php:315
+msgid "Search"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:550
+msgid "Select Columns"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:182
+msgid "Set the class name of the table"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:187
+msgid "Set the column width (e.g., number-col-width=\"30\")"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:1087
+#: contact-form-entries/templates/settings.php:116
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:168
+msgid "Short Codes"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:258
+msgid "Show Empty Fields"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:61
+msgid "Show Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:176
+msgid "Specify form-id (e.g., form-id=\"cf_8\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:179
+msgid "Specify how many columns the table will display (e.g., cols=\"6\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:194
+msgid "Specify how many records the table will have per page (e.g., per-page=\"20\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:183
+msgid "Specify the id of the table"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:189
+msgid "Specify which row will start the table (e.g., start=\"0\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:744
+msgid "Subject"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:772
+msgid "Submitted"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/add-ons.php:667
+msgid "This Plugin requires %s plugin"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/crmperks-notices.php:89
+msgid "This plugin has Premium add-ons and many powerful features."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:312
+msgid "To Date"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/print.php:256
+msgid "Toggle Empty Fields"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-api.php:810
+msgid "Toggle License Key"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:122
+msgid "Track Forms"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:497
+#: contact-form-entries/templates/view.php:829
+msgid "Trash"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:927
+msgid "Update Note"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:779
+msgid "Updated"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:679
+msgid "Updated :"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:722
+msgid "Upgrade"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/view.php:800
+msgid "User"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/settings.php:180
+msgid "Using labels, identify which columns the table will display (e.g., col-labels=\"Last name, First name\")"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:679
+msgid "Version :"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/templates/leads.php:493
+msgid "View"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:531
+msgid "Wait..."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/templates/view.php:840
+msgid "Yellow Note"
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/add-ons.php:549
+msgid "You can activate, deactivate and delete add-ons here."
+msgstr ""
+
+#. Text in echo
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "You do not have permissions to access this page."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-pages.php:632
+msgid "You do not have permissions to edit/save entry."
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/plugin-api.php:451
+msgid "Your License Key expired. %sRenew it Now%s"
+msgstr ""
+
+#. Text in function
+#: contact-form-entries/includes/crmperks-notices.php:33
+msgid "if you enjoy using %sContact Form Entries Plugin%s, please %s leave us a %s rating%s. A %shuge%s thank you in advance."
+msgstr ""

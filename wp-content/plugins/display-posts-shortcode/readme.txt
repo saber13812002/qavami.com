@@ -1,34 +1,106 @@
-=== Display Posts Shortcode ===
+=== Display Posts - Easy lists, grids, navigation, and more ===
 Contributors: billerickson
-Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQKRBRFVRUV8C
 Tags: shortcode, pages, posts, page, query, display, list
 Requires at least: 3.0
-Tested up to: 4.8
-Stable tag: 2.9.0
+Tested up to: 5.2
+Stable tag: 3.0.2
 
-Display a listing of posts using the [display-posts] shortcode
+Add a listing of content on your website using a simple shortcode. Filter the results by category, author, and more.
 
 == Description ==
 
-The *Display Posts Shortcode* was written to allow users to easily display listings of posts without knowing PHP or editing template files.
+Display Posts allows you easily list content from all across your website. Start by adding this shortcode in the content editor to display a list of your most recent posts:
 
-Add the shortcode in a post or page, and use the arguments to query based on tag, category, post type, and many other possibilities. You can also customize the output with parameters like: include_date, include_excerpt, and image_size.
+`[display-posts]`
 
-* [Available Parameters](https://github.com/billerickson/display-posts-shortcode/blob/master/README.md#parameters)
-* [Customization with Filters](https://github.com/billerickson/display-posts-shortcode/wiki#customization-with-filters)
-* [Extension Plugins](https://github.com/billerickson/display-posts-shortcode/wiki#extension-plugins)
-* [Full Change Log](https://github.com/billerickson/display-posts-shortcode/blob/master/CHANGELOG.md)
-* [View on GitHub](https://github.com/billerickson/display-posts-shortcode)
+**Filter by Category**
+
+To only show posts within a certain category, use the category parameter:
+
+`[display-posts category="news"]`
+
+**Display as Post Grid**
+
+You can create a great looking, column-based grid of posts with a bit of styling. [Here's how!](https://displayposts.com/2019/01/04/post-grid-styling/)
+
+**List Popular Posts**
+You can highlight your popular content in multiple ways. If you want to feature the posts with the most comments, use:
+
+`[display-posts orderby="comment_count"]`
+
+You can also list [most popular posts by social shares](https://displayposts.com/2019/01/04/most-popular-posts-by-social-shares/).
+
+**Include thumbnails, excerpts, and more**
+The [display parameters](https://displayposts.com/docs/parameters/#display-parameters) let you control what information is displayed for each post. To include an image and summary, use:
+
+`[display-posts include_excerpt="true" image_size="thumbnail"]`
+
+You can use any image size added by WordPress (thumbnail, medium, medium_large, large) OR any custom image size added by your theme or other plugins.
+
+**Sort the list however you like**
+By default the listing will list the newest content first, but you can order by title, menu order, relevance, content type, metadata, and more.
+
+**List upcoming events**
+You can easily list upcoming events from any event calendar. Each plugin will require slightly different code.
+
+Here are [tutorials for popular event calendar plugins](https://displayposts.com/tag/events/). If your plugin is not listed here, submit a support request and I'll add it!
+
+**Tutorials**
+[Our tutorials](https://displayposts.com/tutorials/) cover common customization requests, and are updated often.
+
+**Full Documentation**
+
+* [Query parameters](https://displayposts.com/docs/parameters/#query-parameters) for customizing which posts are listed (filter by category, tag, date...)
+* [Display parameters](https://displayposts.com/docs/parameters/#display-parameters) determine how the posts appear (title, excerpt, image...)
+* [Template parts](https://displayposts.com/2019/01/04/use-template-parts-to-match-your-themes-styling/) for Display Posts to perfectly match your theme's post listings
+* [Output filter](https://displayposts.com/docs/the-output-filter/) for complete control over how the listing looks on your site
+* [Filters](https://displayposts.com/docs/parameters/#display-parameters) for even more powerful customizations for developers
+
+**Extensions**
+
+* [Display Posts – Pagination](https://github.com/billerickson/Display-Posts-Pagination) – Allow results of Display Posts to be paginated
+* [Display Posts – Date View](https://wordpress.org/plugins/display-posts-date-view/) – Lets you break your content down by month or year.
+* [Display Posts – Alpha View](https://github.com/billerickson/Display-Posts-Alpha-View) – Display an alphabetical listing of your content, broken down by letter
+* [Display Posts – Transient Cache](https://github.com/billerickson/Display-Posts-Transient-Cache) – Cache the output using transients
+* [Co-Authors Plus Addon](https://github.com/billerickson/dps-coauthor-addon) – multiple authors on posts
+* [Columns Extension](https://github.com/billerickson/dps-columns-extension) – display posts in columns
+* [DPS Exclude Sticky](https://github.com/billerickson/DPS-Exclude-Sticky) – exclude sticky posts unless specifically requested
+* [DPS Pinch Zoomer](https://github.com/shazahm1/Display-Posts-Shortcode-Pinch-Zoomer) – adds support pinch zooming post images on mobile devices and mouse wheel zooming on desktops
+* [Display Posts Shortcode Remote](https://github.com/shazahm1/Display-Posts-Shortcode-Remote) – display posts from a remote WordPress site utilizing the WP REST API.
 
 
 == Installation ==
 
 1. Upload `display-posts-shortcode` to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the *Plugins* menu in WordPress.
-1. Add the shortcode to a post or page.
+1. Add the `[display-posts]` shortcode to a post or page.
 
 
 == Changelog ==
+
+**Version 3.0.2**
+* Added `pre_display_posts_shortcode_output` filter before shortcode runs, used for transient caching, see [#210](https://github.com/billerickson/display-posts-shortcode/issues/214)
+* Updated plugin to pass coding standards, see [#214](https://github.com/billerickson/display-posts-shortcode/issues/214)
+* Removed survey admin notice, see [#213](https://github.com/billerickson/display-posts-shortcode/issues/213)
+* Don't display empty term list, see [#208](https://github.com/billerickson/display-posts-shortcode/issues/208)
+
+**Version 3.0.1**
+* Prevent empty empty parameters from being added to the query, see [#207](https://github.com/billerickson/display-posts-shortcode/issues/207)
+
+**Version 3.0.0**
+* Added author_id parameter, see [#195](https://github.com/billerickson/display-posts-shortcode/issues/195)
+* Added has_password parameter
+* Added s parameter for performing a site search, see [#184](https://github.com/billerickson/display-posts-shortcode/issues/184)
+* Added date_format="relative" format option (ex: 2 days ago), see [#194](https://github.com/billerickson/display-posts-shortcode/issues/194)
+* Added post_parent__in and post_parent__not_in parameters, see [#193](https://github.com/billerickson/display-posts-shortcode/issues/193)
+* Added excerpt_dash="false" option to disable dash in excerpt, see [#204](https://github.com/billerickson/display-posts-shortcode/issues/204)
+* Added additional parameters to the `display_posts_shortcode_output` filter
+* Added additional parameters to the `display_posts_shortcode_category_display` filter, see [#185](https://github.com/billerickson/display-posts-shortcode/issues/185)
+* $dps_listing loop now accessible globally, see [#198](https://github.com/billerickson/display-posts-shortcode/issues/198)
+* $dps_listing loop now accessible in open/close filters
+* Added .excerpt-more class to excerpt more text, see [#205](https://github.com/billerickson/display-posts-shortcode/issues/205)
+* Now excerpt_more text is always appended to end of excerpt, see [#197](https://github.com/billerickson/display-posts-shortcode/issues/197)
+* In parameters that support multiple terms, they can now be separated with a comma or comma-space, see [#183](https://github.com/billerickson/display-posts-shortcode/issues/183)
 
 **Version 2.9.0**
 * New parameter `exclude` for excluding specific post IDs, see [#154](https://github.com/billerickson/display-posts-shortcode/issues/154)

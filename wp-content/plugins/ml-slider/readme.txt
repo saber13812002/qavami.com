@@ -1,10 +1,11 @@
 === MetaSlider ===
 Contributors: matchalabs, DavidAnderson, dnutbourne, kbat82
-Tags: wordpress slideshow,seo,slideshow,slider,widget,wordpress slider,image slider,flexslider,flex slider,nivoslider,nivo slider,responsive,responsive slides,coinslider,coin slider,slideshow,carousel,responsive slider,vertical slides
+Tags: slideshow, slider, image slider, carousel, gallery, flexslider, wordpress slider, nivoslider, rotating banner, responsive slideshow, seo slideshow, unsplash
 Donate link: https://david.dw-perspective.org.uk/donate
 Requires at least: 3.5
-Stable tag: 3.10.3
-Tested up to: 5.0
+Stable tag: 3.13.1
+Requires PHP: 5.2
+Tested up to: 5.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,6 +16,8 @@ Easy to use WordPress slider plugin. Create SEO-optimized responsive slideshows 
 Create powerful, SEO-optimized slideshows in minutes with the world's #1 slider plugin!
 
 With WordPress’ most popular slider plugin, enhancing your blog or website couldn’t be easier: simply select images from your WordPress Media Library, drag and drop them into place, and then set the slide captions, links and SEO fields all from one page.
+
+**NEW: Easily search and download free images to your slideshow from Unsplash.com**
 
 Choose one of 4 different slideshow types, and use our provided short-code or template to embed the slideshows.
 
@@ -32,6 +35,7 @@ Apply one of our professional slidehow designs to really make your website stand
 **Features**
 
 * Simple, easy to use interface - perfect for individual users, developers & clients!
+* Access to free photos via Unsplash.com
 * Create Responsive, SEO-optimized slideshows in seconds
 * Unrestricted support for image slides (supports caption, link, title text, alt text)
 * Full width slideshow support
@@ -39,7 +43,7 @@ Apply one of our professional slidehow designs to really make your website stand
 * Intelligent image cropping
 * Set image crop position
 * Themes - includes 11 free professional slideshow themes
-* Built in Widget and Shortcode
+* Built in Gutenberg block, Widget and Shortcode
 * Loads of slideshow configuration options - transition effect, speed etc (per slideshow)
 * Fully localized
 * WordPress Multi Site compatible
@@ -160,9 +164,49 @@ See https://www.metaslider.com/documentation/image-cropping/
 
 == Changelog ==
 
-= 3.10.3 - 2018/Dec/4 =
+= 3.13.1 - 2019/May/11 =
+
+* TWEAK: Corrects a check on a variable in Theme.php, preventing a possible PHP notice
+
+= 3.13.0 - 2019/May/7 =
+
+* FEATURE: Allows captions to inherit the image description
+* FEATURE: Adds support for theme developers to register a theme
+* TWEAK: Adds extra checks for when a theme is missing
+* TWEAK: Removed some ancient code for compatibility with PHP < 5.1
+* TWEAK: Stops random theme being inherited when user removes it
+* REFACTOR: DOM appended slides are now rendered as Vue components
+
+= 3.12.1 - 2019/Mar/18 =
+
+* FIX: Fixes a bug where Nivo and Coin Slider did not ship with the plugin
+
+= 3.12.0 - 2019/Mar/18 =
+
+* TWEAK: Sets a default theme on a newly created slideshow
+* TWEAK: Adds various trivial code quality fixes 
+* FEATURE: Adds access to the Unsplash.com image library
+
+= 3.11.1 - 2019/Jan/30 =
 
 * FIX: Update Gutenberg compatibility
+
+= 3.11.0 - 2019/Jan/30 =
+
+* FEATURE: Adds drag and drop module
+* FEATURE: Adds a convenient start page for new users
+* FIX: Fixes layout issue with notices served by other plugins
+* FIX: Updates Gutenberg container styles
+* FIX: Fixes issue where Coin Slider wouldn't open in a new window
+* FIX: Updates support for Elementor page builder
+* TWEAK: Updates various UI elements
+* TWEAK: Removes fonts to reduce package size
+* TWEAK: Adds an escape output of slideshow titles 
+* REFACTOR: Removes defunct preview method
+
+= 3.10.3 - 2018/Dec/04 =
+
+* FIX: Updates Gutenberg compatibility
 
 = 3.10.2 - 2018/Nov/21 =
 
@@ -727,4 +771,4 @@ More info/Comments: http://www.metaslider.com/coming-soon-meta-slider-2-6-free/
 * Initial version
 
 == Upgrade Notice ==
-* 3.10.3 : Upgrade now if your Gutenberg blocks disappeared
+* 3.13.1 : Upgrade now if you are seeing a PHP notice on your site

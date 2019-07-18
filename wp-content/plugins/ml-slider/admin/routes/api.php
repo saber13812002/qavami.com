@@ -27,7 +27,6 @@ class MetaSLider_Api {
 	public function setup() {
 		$this->slideshows = new MetaSlider_Slideshows();
 		$this->themes = MetaSlider_Themes::get_instance();
-		$this->slides = MetaSlider_Slides::get_instance();
 	}
 
 	/**
@@ -46,6 +45,7 @@ class MetaSLider_Api {
 		// Slideshows
 		add_action('wp_ajax_ms_get_all_slideshows', array(self::$instance, 'get_all_slideshows'));
 		add_action('wp_ajax_ms_get_preview', array(self::$instance, 'get_preview'));
+		add_action('wp_ajax_ms_delete_slideshow', array(self::$instance, 'delete_slideshow'));
 
 		// Themes
 		add_action('wp_ajax_ms_get_all_free_themes', array(self::$instance, 'get_all_free_themes'));
@@ -222,13 +222,63 @@ class MetaSLider_Api {
 			absint($slideshow_id), $theme_id
 		);
 
-		if (!$html || is_wp_error($html)) {
+		if (is_wp_error($html)) {
 			return wp_send_json_error(array(
-				'message' => 'There was an issue while attempting to load the preview. Please refresh and try again.'
+				'message' => $html->get_error_message()
 			), 400);
 		}
 
 		return wp_send_json_success($html, 200);
+	}
+	
+	/**
+	 * Delete a slideshow
+	 * 
+	 * @param object $request The request
+	 * @return array|WP_Error
+	 */
+    public function delete_slideshow($request) {
+		if (method_exists($request, 'get_param')) {
+			$slideshow_id = $request->get_param('slideshow_id');
+		} else {
+			// Support for admin-ajax
+			$slideshow_id = isset($_POST['slideshow_id']) ? $_POST['slideshow_id'] :
+				(isset($_GET['slider_id']) ? $_GET['slider_id'] : null); // bw compatability
+		}
+
+		$user = wp_get_current_user();
+		$capability = apply_filters('metaslider_capability', 'edit_others_posts');
+
+		if (!current_user_can($capability)) {
+			return wp_send_json_error(array(
+				'message' => __('You do not have access to this resource.', 'ml-slider')
+			), 401);
+		}
+
+		// If the slideshow was deleted
+		$slideshow = get_post($slideshow_id);
+		if ('publish' !== $slideshow->post_status) {
+			return wp_send_json_error(array(
+				'message' => __('This slideshow is no longer available.', 'ml-slider')
+			), 410);
+		}
+
+		// Confirm it's one of ours
+		if ('ml-slider' !== get_post_type($slideshow_id)) {
+			return wp_send_json_error(array(
+				'message' => __('This was not a slideshow, so we cannot delete it.', 'ml-slider')
+			), 409);
+		}
+
+		$next_slideshow = $this->slideshows->delete(absint($slideshow_id));
+		
+		if (is_wp_error($next_slideshow)) {
+			return wp_send_json_error(array(
+				'message' => 'There was an issue while attempting delete the slideshow. Please refresh and try again.'
+			), 400);
+		}
+
+		return wp_send_json_success($next_slideshow, 200);
 	}
 	
 	/**
@@ -241,11 +291,15 @@ class MetaSLider_Api {
 		if (method_exists($request, 'get_param')) {
 			$slideshow_id = $request->get_param('slideshow_id');
 			$theme_id = $request->get_param('theme_id');
+			$slide_id = $request->get_param('slide_id');
+			$image_data = $request->get_param('image_data');
 		} else {
 
 			// Support for admin-ajax
-			$slideshow_id = $_POST['slideshow_id'];
+			$slideshow_id = isset($_POST['slideshow_id']) ? $_POST['slideshow_id'] : null;
 			$theme_id = isset($_POST['theme_id']) ? $_POST['theme_id'] : 'none';
+			$slide_id = isset($_POST['slide_id']) ? $_POST['slide_id'] : null;
+			$image_data = isset($_POST['image_data']) ? $_POST['image_data'] : null;
 		}
 
 		$user = wp_get_current_user();
@@ -256,16 +310,97 @@ class MetaSLider_Api {
 				'message' => __('You do not have access to this resource.', 'ml-slider')
 			), 401);
 		}
-		
-		$import = $this->slides->import(absint($slideshow_id), $theme_id);
 
-		if (is_wp_error($import)) {
-			return wp_send_json_error(array(
-				'message' => $import->get_error_message()
-			), 400);
+		// Create a slideshow if one doesn't exist
+        if (is_null($slideshow_id) || !absint($slideshow_id)) {
+            $slideshow_id = $this->slideshows->create();
+
+            if (is_wp_error($slideshow_id)) {
+                return wp_send_json_error(array(
+                    'message' => $slideshow_id->get_error_message()
+                ), 400);
+            }
 		}
 
-		return wp_send_json_success($import, 200);
+		// If there are files here, then we need to prepare them
+		// Dont use get_file_params() as it's WP4.4
+		$images = isset($_FILES['files']) ? $this->process_uploads($_FILES['files'], $image_data) : array();
+
+		// $images should be an array of image data at this point
+		// Capture the slide markup that is typically echoed from legacy code
+		ob_start();
+
+		$image_ids = MetaSlider_Image::instance()->import($images, $theme_id);
+		if (is_wp_error($image_ids)) {
+            return wp_send_json_error(array(
+                'message' => $image_ids->get_error_message()
+            ), 400);
+        }
+		
+		$errors = array();
+		$method = is_null($slide_id) ? 'create_slide' : 'update';
+		foreach ($image_ids as $image_id) {
+			$slide = new MetaSlider_Slide(absint($slideshow_id), $slide_id);
+			$slide->add_image($image_id)->$method();
+			if (is_wp_error($slide->error)) array_push($errors, $slide->error);
+		}
+
+		// Disregard the output. It's not needed for imports
+		ob_end_clean();
+
+        // Send back the first error, if any
+        if (isset($errors[0])) {
+            return wp_send_json_error(array(
+                'message' => $errors[0]->get_error_message()
+            ), 400);
+        }
+
+		return wp_send_json_success(wp_get_attachment_thumb_url($slide->slide_data['id']), 200);
+	}
+
+
+	/**
+	 * Verify uploads are useful and return an array with metadata
+	 * For now only handles images.
+	 * 
+	 * @param array $files An array of the images
+	 * @param array $data  Data for the image, keys should match
+	 *
+	 * @return array An array with image data
+	 */
+	public function process_uploads($files, $data = null) {
+		$images = array();
+		foreach($files['tmp_name'] as $index => $tmp_name) {
+
+			// If there was an error, skip this file
+			// TODO: consider reporting an error back to the user, but skipping might be best
+			if (!empty($files['error'][$index])) continue;
+
+			// If the name is empty or isn't an uploaded file, skip it
+			if (empty($tmp_name) || !is_uploaded_file($tmp_name)) continue;
+
+			// For now there's no reason to import anything but images
+			if (!strstr(mime_content_type($tmp_name), "image/")) continue;
+				
+			// Ignore images too large for the server (According to WP)
+			// The server probably handles this already
+			// TODO: possibly provide user feedback, but skipping moves forward
+			$max_upload_size = wp_max_upload_size();
+			if (!$max_upload_size) $max_upload_size = 0;
+			$file_size = $files['size'][$index];
+			if ($file_size > $max_upload_size) continue;
+
+			// Tests were passed, so move forward with this image
+			$filename = $files['name'][$index];
+			$images[$filename] = array(
+				'source' => (string) $tmp_name,
+				'caption' => isset($data[$filename]['caption']) ? (string) $data[$filename]['caption'] : '',
+				'title' => isset($data[$filename]['title']) ? (string) $data[$filename]['title'] : '',
+				'description' => isset($data[$filename]['description']) ? (string) $data[$filename]['description'] : '',
+				'alt' => isset($data[$filename]['alt']) ? (string) $data[$filename]['alt'] : ''
+			);
+		}
+		return $images;
 	}
 }
 
@@ -296,7 +431,7 @@ if (class_exists('WP_REST_Controller')) :
 		 */
 		public function register_routes() {
 
-			register_rest_route($this->namespace, '/slideshows/all', array(
+			register_rest_route($this->namespace, '/slideshow/all', array(
 				array(
 					'methods' => 'GET',
 					'callback' => array($this->api, 'get_all_slideshows')
@@ -306,6 +441,12 @@ if (class_exists('WP_REST_Controller')) :
 				array(
 					'methods' => 'GET',
 					'callback' => array($this->api, 'get_preview')
+				)
+			));
+			register_rest_route($this->namespace, '/slideshow/delete', array(
+				array(
+					'methods' => 'POST',
+					'callback' => array($this->api, 'delete_slideshow')
 				)
 			));
 			

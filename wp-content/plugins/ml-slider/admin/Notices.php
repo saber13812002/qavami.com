@@ -183,7 +183,7 @@ class MetaSlider_Notices extends Updraft_Notices_1_0 {
 	/**
 	 * Premium user notices, if any. 
      *
-	 * @return string
+	 * @return array
 	 */
     protected function pro_notices() {
 
@@ -201,7 +201,7 @@ class MetaSlider_Notices extends Updraft_Notices_1_0 {
      * An empty string for 'hide_time' will show "Dismiss" instead of "Dismiss (12 weeks)"
      * Each year the key and dismiss time should be updated
      *
-	 * @return string
+	 * @return array
 	 */
     protected function seasonal_notices() {
 
@@ -211,29 +211,29 @@ class MetaSlider_Notices extends Updraft_Notices_1_0 {
         }
 
         return array(
-			'blackfriday2018' => array(
+			'blackfriday2019' => array(
 				'title' => _x('Black Friday - 20% off the MetaSlider Add-on Pack until November 30th', 'Keep the phrase "MetaSlider Add-on Pack" when possible. Also, "Black Friday" is the name of an event in the United States', 'ml-slider'),
 				'text' => __('To benefit, use this discount code:', 'ml-slider').' ',
 				'image' => 'seasonal/black_friday.png',
 				'button_link' => 'metaslider',
 				'button_meta' => 'ml-slider',
-				'dismiss_time' => 'blackfriday2018',
-				'discount_code' => 'blackfriday2018sale',
-				'valid_from' => '2018-11-20 00:00:00',
-                'valid_to' => '2018-11-30 23:59:59',
+				'dismiss_time' => 'blackfriday2019',
+				'discount_code' => 'blackfriday2019sale',
+				'valid_from' => '2019-11-20 00:00:00',
+                'valid_to' => '2019-11-30 23:59:59',
                 'hide_time' => '',
 				'supported_positions' => array('header', 'dashboard'),
 			),
-			'christmas2018' => array(
+			'christmas2019' => array(
 				'title' => _x('Christmas sale - 20% off the MetaSlider Add-on Pack until December 25th', 'Keep the phrase "MetaSlider Add-on Pack" when possible', 'ml-slider'),
 				'text' => __('To benefit, use this discount code:', 'ml-slider').' ',
 				'image' => 'seasonal/christmas.png',
 				'button_link' => 'metaslider',
 				'button_meta' => 'ml-slider',
-				'dismiss_time' => 'christmas2018',
-				'discount_code' => 'christmas2018sale',
-				'valid_from' => '2018-12-01 00:00:00',
-				'valid_to' => '2018-12-25 23:59:59',
+				'dismiss_time' => 'christmas2019',
+				'discount_code' => 'christmas2019sale',
+				'valid_from' => '2019-12-01 00:00:00',
+				'valid_to' => '2019-12-25 23:59:59',
                 'hide_time' => '',
 				'supported_positions' => array('header', 'dashboard'),
 			),
@@ -243,10 +243,10 @@ class MetaSlider_Notices extends Updraft_Notices_1_0 {
 				'image' => 'seasonal/new_year.png',
 				'button_link' => 'metaslider',
 				'button_meta' => 'ml-slider',
-				'dismiss_time' => 'newyear2019',
-				'discount_code' => 'newyear2019sale',
-				'valid_from' => '2018-12-26 00:00:00',
-				'valid_to' => '2019-01-14 23:59:59',
+				'dismiss_time' => 'newyear2020',
+				'discount_code' => 'newyear2020sale',
+				'valid_from' => '2019-12-26 00:00:00',
+				'valid_to' => '2020-01-14 23:59:59',
                 'hide_time' => '',
 				'supported_positions' => array('header', 'dashboard'),
 			),
@@ -642,7 +642,7 @@ class MetaSlider_Notices extends Updraft_Notices_1_0 {
 	/**
      * Returns all possible ads or the specified identifier
      *
-     * @param string $ad_identifier Ad Identifier
+     * @param string|null $ad_identifier Ad Identifier
 	 * @return string|null the data of the ad
 	 */
 	public function get_ad($ad_identifier = null) {

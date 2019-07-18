@@ -147,31 +147,28 @@ class MetaSlide {
     }
 
 
-    /**
-     * Return the correct slide HTML based on whether we're viewing the slides in the
-     * admin panel or on the front end.
-     *
-     * @return string slide html
-     */
-    public function get_slide_html() {
+	/**
+	 * Return the correct slide HTML based on whether we're viewing the slides in the
+	 * admin panel or on the front end.
+	 *
+	 * @return string slide html
+	 */
+	public function get_slide_html() {
 
-        $viewing_theme_editor = is_admin() && isset( $_GET['page'] ) && $_GET['page'] == 'metaslider-theme-editor';
-        $viewing_preview = did_action('admin_post_metaslider_preview');
-        $doing_ajax = defined( 'DOING_AJAX' ) && DOING_AJAX;
+		// If we are on the MetaSlider settings page, and the user has permission
+		// return the admin style slides
+		$on_settings_page = isset($_GET['page']) && ('metaslider' === $_GET['page']);
+		$has_permission = current_user_can(apply_filters('metaslider_capability', 'edit_others_posts'));
+		$ajax_call = apply_filters('wp_doing_ajax', defined('DOING_AJAX') && DOING_AJAX);
+		$rest_call = defined('REST_REQUEST') && REST_REQUEST;
 
-        if ( $doing_ajax || $viewing_preview || $viewing_theme_editor ) {
-            return $this->get_public_slide();
-        }
+		if (is_admin() && $on_settings_page && $has_permission && !$ajax_call && !$rest_call) {
+			return $this->get_admin_slide();
+		}
 
-        $capability = apply_filters( 'metaslider_capability', 'edit_others_posts' );
-
-        if ( is_admin() && current_user_can( $capability ) ) {
-            return $this->get_admin_slide();
-        }
-
-        return $this->get_public_slide();
-
-    }
+		// Otherwise deliver the public slide markup
+		return $this->get_public_slide();
+	}
 
     /**
      * Check if a slide already exists in a slideshow
@@ -380,8 +377,9 @@ class MetaSlide {
      * @return string The html for the edit button on a slide image
      */
     public function get_update_image_button_html() {
-        $attachment_id = $this->get_attachment_id();
-        return "<button class='toolbar-button update-image alignright tipsy-tooltip-top' data-button-text='" . __("Update slide image", "ml-slider") . "' title='" . __("Update slide image", "ml-slider") . "' data-slide-id='{$this->slide->ID}' data-attachment-id='{$attachment_id}'><i><svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-edit-2'><polygon points='16 3 21 8 8 21 3 21 3 16 16 3'/></svg></i></button>";
+		$attachment_id = $this->get_attachment_id();
+		$slide_type = get_post_meta($this->slide->ID, 'ml-slider_type', true);
+        return "<button class='toolbar-button update-image alignright tipsy-tooltip-top' data-slide-type='{$slide_type}' data-button-text='" . __("Update slide image", "ml-slider") . "' title='" . __("Update slide image", "ml-slider") . "' data-slide-id='{$this->slide->ID}' data-attachment-id='{$attachment_id}'><i><svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='feather feather-edit-2'><polygon points='16 3 21 8 8 21 3 21 3 16 16 3'/></svg></i></button>";
     }
 
     /**

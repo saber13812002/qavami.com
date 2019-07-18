@@ -1,14 +1,14 @@
-/*!
- * jQuery Migrate - v1.4.1 - 2016-05-19
- * Copyright jQuery Foundation and other contributors
- */
+/*!
+ * jQuery Migrate - v1.4.1 - 2016-05-19
+ * Copyright jQuery Foundation and other contributors
+ */
 (function( jQuery, window, undefined ) {
 // See http://bugs.jquery.com/ticket/13335
 // "use strict";
-
+
 
 jQuery.migrateVersion = "1.4.1";
-
+
 
 var warnedAbout = {};
 
@@ -82,7 +82,7 @@ if ( document.compatMode === "BackCompat" ) {
 	// jQuery has never supported or tested Quirks Mode
 	migrateWarn( "jQuery is not compatible with Quirks Mode" );
 }
-
+
 
 var attrFn = jQuery( "<input/>", { size: 1 } ).attr("size") && jQuery.attrFn,
 	oldAttr = jQuery.attr,
@@ -189,7 +189,7 @@ jQuery.attrHooks.value = {
 		elem.value = value;
 	}
 };
-
+
 
 var matched, browser,
 	oldInit = jQuery.fn.init,
@@ -377,7 +377,7 @@ jQuery.fn.size = function() {
 	migrateWarn( "jQuery.fn.size() is deprecated; use the .length property" );
 	return this.length;
 };
-
+
 
 var internalSwapCall = false;
 
@@ -422,7 +422,7 @@ jQuery.swap = function( elem, options, callback, args ) {
 
 	return ret;
 };
-
+
 
 // Ensure that $.ajax gets the new parseJSON defined in core.js
 jQuery.ajaxSetup({
@@ -430,7 +430,7 @@ jQuery.ajaxSetup({
 		"text json": jQuery.parseJSON
 	}
 });
-
+
 
 var oldFnData = jQuery.fn.data;
 
@@ -449,7 +449,7 @@ jQuery.fn.data = function( name ) {
 	}
 	return oldFnData.apply( this, arguments );
 };
-
+
 
 var rscriptType = /\/(java|ecma)script/i;
 
@@ -502,7 +502,7 @@ if ( !jQuery.clean ) {
 		return ret;
 	};
 }
-
+
 var eventAdd = jQuery.event.add,
 	eventRemove = jQuery.event.remove,
 	eventTrigger = jQuery.event.trigger,
@@ -664,7 +664,7 @@ jQuery.event.special.ready = {
 		}
 	}
 };
-
+
 var oldSelf = jQuery.fn.andSelf || jQuery.fn.addBack,
 	oldFnFind = jQuery.fn.find;
 
@@ -679,7 +679,7 @@ jQuery.fn.find = function( selector ) {
 	ret.selector = this.selector ? this.selector + " " + selector : selector;
 	return ret;
 };
-
+
 
 // jQuery 1.6 did not support Callbacks, do not warn there
 if ( jQuery.Callbacks ) {
@@ -747,6 +747,6 @@ if ( jQuery.Callbacks ) {
 		return deferred;
 	};
 
-}
-
-})( jQuery, window );
+}
+
+})( jQuery, window );

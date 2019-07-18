@@ -1,6 +1,38 @@
 # Change Log
 All notable changes to this project will be documented in this file, formatted via [this recommendation](http://keepachangelog.com/).
 
+### [3.0.2]
+#### Added
+* Added `pre_display_posts_shortcode_output` filter before shortcode runs, used for transient caching, see #210
+
+#### Changed
+* Updated plugin to pass coding standards, see #214
+* Removed survey admin notice, see #213
+* Don't display empty term list, see #208
+* Improved spacing around excerpt dash, see #219
+
+### [3.0.1]
+#### Changed
+* Don't add empty parameters to the query, see #207
+
+### [3.0.0]
+#### Added
+* Added author_id parameter, see #195
+* Added has_password parameter
+* Added s parameter for performing a site search, see #184
+* Added date_format="relative" format option (ex: 2 days ago), see #194
+* Added post_parent__in and post_parent__not_in parameters, see #193
+* Added excerpt_dash="false" option to disable dash in excerpt, see #204
+* Added additional parameters to the `display_posts_shortcode_output` filter
+* Added additional parameters to the `display_posts_shortcode_category_display` filter, see #185
+* $dps_listing loop now accessible globally, see #198
+* $dps_listing loop now accessible in open/close filters
+* Added .excerpt-more class to excerpt more text, see #205
+
+#### Changed
+* excerpt_more text is always appended to end of excerpt, see #197
+* In parameters that support multiple terms, they can now be separated with a comma or comma-space, see #183
+
 ### [2.9.0]
 #### Added
 * New parameter `exclude` for excluding specific post IDs, see #154

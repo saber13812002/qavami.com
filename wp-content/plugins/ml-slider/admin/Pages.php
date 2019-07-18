@@ -72,7 +72,7 @@ Class MetaSlider_Admin_Pages extends MetaSliderPlugin {
             'url' => __("URL", "ml-slider"),
             'caption' => __("Caption", "ml-slider"),
             'new_window' => __("New Window", "ml-slider"),
-            'confirm' => __("Are you sure?", "ml-slider"),
+            'confirm' => __("Please confirm that you would like to delete this slideshow.", "ml-slider"),
             'restore_language' => __("Undo", "ml-slider"),
             'restored_language' => __("Slide restored", "ml-slider"),
             'deleted_language' => __("Slide deleted", "ml-slider"),
@@ -87,7 +87,6 @@ Class MetaSlider_Admin_Pages extends MetaSliderPlugin {
             'undelete_slide_nonce' => wp_create_nonce('metaslider_undelete_slide'),
             'update_slide_image_nonce' => wp_create_nonce('metaslider_update_slide_image'),
             'handle_notices_nonce' => wp_create_nonce('metaslider_handle_notices_nonce'),
-            'iframeurl' => admin_url('admin-post.php?action=metaslider_preview'),
             'useWithCaution' => __("Caution: This setting is for advanced developers only. If you're unsure, leave it checked.", "ml-slider")
         ));
         wp_enqueue_script('metaslider-admin-script');
@@ -103,11 +102,12 @@ Class MetaSlider_Admin_Pages extends MetaSliderPlugin {
 		// $can_use_rest = class_exists('WP_REST_Controller') ? (200 === wp_remote_retrieve_response_code(wp_remote_get(rest_url()))) : false;
 		// Add extra data
 		wp_localize_script('metaslider-admin-components', 'metaslider_api', array(
-			'root' => $can_use_rest ? esc_url_raw(rest_url()) : false,
+			'root' => $can_use_rest ? esc_url_raw(rest_url("metaslider/v1/")) : false,
 			'nonce' => wp_create_nonce('wp_rest'),
 			'ajaxurl' => admin_url('admin-ajax.php'),
 			'proUser' => metaslider_pro_is_active(),
 			'hoplink' => metaslider_get_upgrade_link(),
+			'metaslider_page' => admin_url('admin.php?page=metaslider'),
 			'theme_editor_link' => admin_url('admin.php?page=metaslider-theme-editor'),
 			'supports_rest' => $can_use_rest,
 			'locale' => $this->gutenberg_get_jed_locale_data('ml-slider'),
@@ -120,7 +120,7 @@ Class MetaSlider_Admin_Pages extends MetaSliderPlugin {
      * Loads in custom styling for upgrade page
      */    
     public function load_upgrade_page_assets() {
-        if ('upgrade' == $this->current_page) {
+        if ('upgrade-metaslider' == $this->current_page) {
             wp_enqueue_style('metaslider-upgrade-styles', METASLIDER_ADMIN_URL . 'assets/css/upgrade-' . sanitize_title(METASLIDER_VERSION) . '.css', false, METASLIDER_VERSION);
         }
     }
@@ -184,7 +184,7 @@ Class MetaSlider_Admin_Pages extends MetaSliderPlugin {
     /**
      * Sets up any logic needed for the upgrade page
      */
-    public function render_upgrade_page() {
+    public function render_upgrade_metaslider_page() {
         include METASLIDER_PATH."admin/views/pages/upgrade.php";
 	}
 	

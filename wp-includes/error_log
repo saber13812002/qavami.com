@@ -1,0 +1,4 @@
+[16-Apr-2019 03:52:59 Asia/Tehran] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home3/qavamico/domains/qavami.com/public_html/wp-includes/locale.php:10
+Stack trace:
+#0 {main}
+  thrown in /home3/qavamico/domains/qavami.com/public_html/wp-includes/locale.php on line 10
