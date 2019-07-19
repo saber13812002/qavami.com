@@ -53,6 +53,17 @@ class wpcf7_Telegram
 		);
 
 
+		// add_settings_field('bot_token',  __('Bot Token<br/><small>You need to create your own Telegram-Bot.<br/><a target="_blanc" href="https://core.telegram.org/bots#3-how-do-i-create-a-bot">How to create</a></small>', $this->domain), array($this, 'wpcf7_tg_settings_clb'), 'wpcf7_tg_settings_page', 'wpcf7_tg_sections__main', array(
+		// 	'type'		=> 'password',
+		// 	'name'		=> 'wpcf7_telegram_tkn',
+		// 	'value'		=> $this->get_bot_token()
+		// ));
+		// add_settings_field('chat_id',  __('Chat ID(s)<br/><small>Type there one or more chat ids separated by commas.<br/><a target="_blanc" href="https://wordpress.org/plugins/cf7-telegram/#faq-header">How to get Chat ID</a></small>', $this->domain), array($this, 'wpcf7_tg_settings_clb'), 'wpcf7_tg_settings_page', 'wpcf7_tg_sections__main', array(
+		// 	'type'		=> 'text',
+		// 	'name'		=> 'wpcf7_telegram_chats',
+		// 	'value'		=> $this->chats
+		// ));
+		
 		add_settings_field('bot_token2_api',  __('Bale Bot API<br/><small>You need to use bale bot api url.<br/><a target="_blanc" href="https://dev.bale.ai/quick-start">Help</a> for example : https://apitest.bale.ai/v1/bots/http/ </small>', $this->domain), array($this, 'wpcf7_tg_settings_clb'), 'wpcf7_tg_settings_page', 'wpcf7_tg_sections__main', array(
 			'type'		=> 'text',
 			'name'		=> 'wpcf7_bale_api',
@@ -64,7 +75,7 @@ class wpcf7_Telegram
 			'name'		=> 'wpcf7_bale_tkn',
 			'value'		=> $this->get_bot_token_bale()
 		));
-
+		
 		add_settings_field('chat_id2',  __('Bale Chat ID(s)<br/><small>Type there one or more chat ids separated by commas. like : 485750575<br/><a target="_blanc" href="https://ble.im/get_id_bot">How to get Chat ID</a></small>', $this->domain), array($this, 'wpcf7_tg_settings_clb'), 'wpcf7_tg_settings_page', 'wpcf7_tg_sections__main', array(
 			'type'		=> 'text',
 			'name'		=> 'wpcf7_bale_chats',
@@ -234,7 +245,7 @@ private function get_api_url()
 }
 private function get_api_url_bale()
 {
-	return  $this->bot_api_bale . $this->bot_token_bale;
+	return  $this->bot_api_bale.$this->bot_token_bale;
 }
 
 function load_chats()
